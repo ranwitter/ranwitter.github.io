@@ -8,8 +8,8 @@ description: "of Rangana Withanage"
 
 |||
 | ---:         |          :---: |
-| Name, Vorname |  Withanage, Rangana Sudesha |
-| Anschrifft | Cunterkamp 35, 38173, Veltheim (Ohe), Germany |
+| Surname, First Names |  Withanage, Rangana Sudesha |
+| Address | Cunterkamp 35, 38173, Veltheim (Ohe), Germany |
 | Inbox | rangana at rangana dot de |
 | Personal website | [www.rangana.de](https://www.rangana.de) |
 | Nationality | Sri Lankan (Sri Lanka) |
