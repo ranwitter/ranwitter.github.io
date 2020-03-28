@@ -8,6 +8,15 @@ lastupdatedon: "28.03.2020"
 
 - [My resume](./resume.html) 
 
+## Posts
+
+<ul>
+   {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> - <a href="https://{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+   {% endfor %}
+</ul>
+
+
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
