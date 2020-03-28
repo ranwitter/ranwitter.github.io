@@ -11,5 +11,5 @@ lastupdatedon: "28.03.2020"
 ## Blog Entries
 
 {% for post in site.posts %} 
-- [{{ post.title }}]({{ post.url })
+- [{{ post.title }}]({{ post.url }})
 {% endfor %}
