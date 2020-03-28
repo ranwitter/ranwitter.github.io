@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Home Page"
+title: "Willkommen | Welcome | ආයුබෝවන්"
 description: "Maintained by Rangana Withanage"
 ---
 ## Navigation
