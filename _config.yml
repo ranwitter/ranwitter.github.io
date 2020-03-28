@@ -4,7 +4,7 @@ production_url: "https://www.rangana.de"
 repository: "ranwitter/ranwitter.github.io"
 url: "https://www.rangana.de"
 logo: "/rangana.png"
-theme: jekyll-theme-minimal
+theme: jekyll-theme-leap-day
 show_downloads: false
 google_analytics: 
 github:
