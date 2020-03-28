@@ -10,6 +10,6 @@ lastupdatedon: "28.03.2020"
 
 ## Blog Entries
 
-{% include blog.html %}
-{% include blog.html %}
- 
+{% for post in site.posts %} 
+- [{{ post.title }}]({{ post.url })
+{% endfor %}
