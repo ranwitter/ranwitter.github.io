@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Resume"
-description: "of Rangana Withanage"
+description: "Rangana Sudesha Withanage"
 ---
 
 ## Personal Information
