@@ -12,5 +12,3 @@ github:
         repository_name: "ranwitter.github.io"
         owner_url: "https://github.com/ranwitter"
         owner_name: "ranwitter"
-plugins:
-  - jekyll-last-modified-at
