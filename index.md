@@ -10,12 +10,8 @@ lastupdatedon: "28.03.2020"
 
 ## Blog Entries
 
-Please see my <a href="/blog">blog</a>
-
-{% for post in site.posts %}
-{{ post.date | date_to_string }} » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-{% endfor %}
-  
+{% include blog.html %}
+ 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
