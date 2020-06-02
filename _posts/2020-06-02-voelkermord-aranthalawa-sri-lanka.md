@@ -4,8 +4,6 @@ title: "Völkermord von Aranthalawa Sri Lanka, heute vor 33 Jahren"
 date: 2020-06-02
 ---
 
-## Völkermord von Aranthalawa Sri Lanka, heute vor 33 Jahren, ein Rückblick
-
 Die 70er Jahre können als Gründungszeit der LTTE angesehen werden. Prabhakaran leitete zusammen mit anderen tamilischen Jugendlichen die Gräueltaten als erste Schritte in Richtung einer brutalen LTTE-Terrororganisation ein und zündete einen staatlichen SLTB-Bus in Valvettithurai in Jaffna an. Sie sind öffentliches Eigentum. Die Ermordung des Bürgermeisters von Prabhakaran, Durai Appa, am 27. Juli 1975 begann, Menschenleben zu zerstören. Die Befreiung des tamilischen Volkes wird von den tamilischen Politikern ihrer eigenen Nation getötet. Am 5. Mai 1976 fand in der Region Vaddukkuday eine Konferenz mit einigen tamilischen Organisationen statt. Das heißt, durch eine Konferenz von 40-50 Delegierten in der Region Vaddukoddai entstand das Manifest der LTTE. Die LTTE wurde als bewaffneter Flügel der Befreiungstiger von Tamil Eelam (LTTE) nach der Entscheidung der Vadukkodai-Konferenz gegründet.
 
 Dementsprechend wurden die Tamil Eelam Liberation Tigers von Tamil Eelam (LTTE) geboren, die den Norden und Osten als Heimat des tamilischen Nationalismus bezeichneten. Die Region wurde als Eelam-Staat Tamil Eelam ausgewiesen und als 1/3 des Territoriums Sri Lankas und 2/3 der Hoheitsgewässer Sri Lankas. Die Tamilen von Sri Lanka wurden jahrhundertelang zurückgeschleppt, um diese Ziele zu erreichen.
