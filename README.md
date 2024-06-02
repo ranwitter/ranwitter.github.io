@@ -1,2 +1,0 @@
-# ranwitter.github.io
-
