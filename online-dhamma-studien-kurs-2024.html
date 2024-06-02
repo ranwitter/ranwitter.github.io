@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<title>Buddhistischer Vihara - Schneverdingen</title>
+<meta charset="UTF-16">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-light-green.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-khaki.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+<link rel="stylesheet" href="./custom.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body id="myPage">
+
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity header">
+  <!--<img src="../img/header_bg_dbh2.png" alt="boat" style="width:100%;">-->
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-highway-blue  w3-hover-white" title="Motto">Mögen alle Wesen glücklich sein!</button>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-highway-blue w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-highway-blue w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Mögen alle Wesen glücklich sein!
+      </h4>
+      <h5><i class="fa fa-smile-o">Das ist unsere Motto</i></h5>
+    </header>
+    <div class="w3-container">
+    </div>
+    <footer class="w3-container w3-highway-blue">
+      <p></p>
+    </footer>
+  </div>
+</div>
+
+<!-- Sidebar on click -->
+
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+
+    <i class="fa fa-remove"></i>
+
+  </a>
+
+  <a href="./archiv.html" class="w3-bar-item w3-button">Archiv</a>
+
+  <a href="./video.html" class="w3-bar-item w3-button">Video</a>
+
+  <a href="./spenden.html" class="w3-bar-item w3-button">Spenden</a>
+
+  <a href="./mitgliedschaft.html" class="w3-bar-item w3-button">Mitgliedschaft</a>
+
+  <a href="./kontakt.html" class="w3-bar-item w3-button">Kontakt</a>
+
+</nav>
+
+
+
+<!-- Navbar -->
+
+
+
+ <div class="w3-bar w3-theme-d2 w3-left-align rwi-sticky">
+
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+
+  <a href="index.html#" class="w3-bar-item w3-button "><i class="fa fa-home w3-margin-right"></i>Home</a>
+
+  <a href="ankuendigungen.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Ankündigungen</a>
+
+  <a href="moenche.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Mönche</a>
+
+  <a href="angebote.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-highway-blue "> Angebote</a>
+
+  <a href="archiv.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white   "> Archiv</a>
+
+  <a href="audio.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Audio</a>
+
+  <a href="video.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Video</a>
+
+  <a href="geschichte.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Geschichte</a>
+
+  <a href="verein.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Verein</a>
+
+  <a href="spenden.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Spenden</a>
+
+  <a href="mitgliedschaft.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Mitgliedschaft</a>
+
+  <a href="kontakt.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Kontakt</a>
+
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+
+ </div>
+
+
+
+  <!-- Navbar on small screens -->
+
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+
+    <a href="ankuendigungen.html" class="w3-bar-item w3-button">Ankündigungen</a>
+
+    <a href="moenche.html" class="w3-bar-item w3-button">Mönche</a>
+
+    <a href="angebote.html" class="w3-bar-item w3-button">Angebote</a>
+
+    <a href="archiv.html" class="w3-bar-item w3-button">Archiv</a>
+
+    <a href="audio.html" class="w3-bar-item w3-button">Audio</a>
+
+    <a href="video.html" class="w3-bar-item w3-button">Video</a>
+
+    <a href="geschichte.html" class="w3-bar-item w3-button">Geschichte</a>
+
+    <a href="verein.html" class="w3-bar-item w3-button">Verein</a>
+
+    <a href="spenden.html" class="w3-bar-item w3-button">Spenden</a>
+
+    <a href="mitgliedschaft.html" class="w3-bar-item w3-button">Mitgliedschaft</a>
+
+    <a href="kontakt.html" class="w3-bar-item w3-button">Kontakt</a>
+
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+
+  </div>
+
+<!-- header text starts -->
+
+<div class="w3-container w3-highway-blue">
+
+<h1>  Angebote </h1>
+
+</div>
+
+<!-- header text ends-->
+
+
+
+<!-- Work Row -->
+
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="online-studienkurs-der-buddhist-and-pali-university-of-sri-lanka_2023">
+
+<!-- Container -->
+
+<div class="w3-container">
+
+<h2>Dhamma-Studien-Kurs (online) unter der Leitung des ehrwürdigen Bhante Punnaratana</h2>
+
+
+
+<div class="w3-half">
+
+
+<p>Der Dhamma-Studien-Kurs besteht aus 10 Einheiten mit jeweils einem Thema. Er richtet sich
+an alle Interessierten. Er findet einmal im Monat, jeweils <b>Mittwochs</b> abends <b>von 19:00 bis
+21:00 Uhr</b>, über Zoom statt.</p>
+
+<p>Jede Einheit beginnt mit einer 15-minütigen Andacht, gefolgt von einem ca. 1-stündigen
+Vortrag zum genannten Thema, mit anschließender Gelegenheit für Fragen und Antworten.</p>
+
+<table border="1" style="border-collapse: collapse;margin: 25px 0;font-size: 0.9em;font-family: sans-serif;min-width: 400px;box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);">
+<tr>
+<td>10.01.2024</td>
+<td><b>1. Thema: Hintergründe in Indien im 6.ten Jahrhundert v.Chr.</b><br /><br />
+Das Thema dieses Abends sind die religiösen, wirtschaftlichen und
+philosophischen Hintergründe in Indien zur Zeit des Buddha und wie diese
+dazu beigetragen haben, dass Siddharta Gautama die Buddhaschaft realisiert
+hatte.</td>
+</tr>
+<tr>
+<td>14.02.2024</td>
+<td><b>2. Thema: Wer und wie kann man Buddha werden?</b><br /><br />
+Welche Vorbereitungen sollten getroffen werden? Welches sind die Qualitäten
+eines Buddha? Was bedeutet „Buddha“? An diesem Abend wird Bhante über
+„Buddhaschaft“ sprechen. Wir alle tragen die Samenkerne in uns, wie können
+wir diese richtig kultivieren?</td>
+</tr>
+<tr>
+<td>13.03.2024</td>
+<td><b>3. Thema: Sangha</b><br /><br />
+Was bedeutet Sangha? Wer gehört der Sangha an? Nur Ordinierte oder auch
+Laien? Inhalt dieser Einheit ist die historische und die heutige Sangha, ihre
+Entwicklung und die verschiedenen Schulen, wie Theravada, Mahayana, Zen,
+usw.</td>
+</tr>
+<tr>
+<td>10.04.2024</td>
+<td><b>4. Thema: Ist Buddhismus eine Religion oder eine Philosophie?</b><br /><br />
+Wie hilfreich ist die buddhistische Kultur im Alltag? An diesem Abend wird
+Bhante auch über die buddhistische Kultur sprechen. Oder hat Buddha nur die
+Philosophie gelehrt?</td>
+</tr>
+<tr>
+<td>08.05.2024</td>
+<td><b>5. Thema: Was bedeuten Geburt und Tod im Buddhismus?</b><br /><br />
+Wie beeinflusst Kamma die Wiedergeburt? Wie ist die Verbindung zwischen
+Kamma und Wiedergeburt? Weitere Aspekte des Abends werden sein: Gibt es
+Sterbebegleitung im Buddhismus? Was bedeutet Sterbebegleitung im
+Buddhismus?</td>
+</tr>
+<tr>
+<td>12.06.2024</td>
+<td><b>6. Thema: Welche Reihenfolge gibt es für die buddhistische Praxis?</b><br /><br />
+Gibt es eine empfohlene Reihenfolge? Ist die Reihenfolge: Dana
+(Großzügigkeit), Sila (Sittlichkeit), Bhavana (Sammlung/Meditation) oder gilt
+die Reihenfolge des edlen achtfachen Pfades? Praktiziert man zuerst das Eine
+oder das Andere oder sind Beide das Gleiche?
+</td>
+</tr>
+<tr>
+<td>10.07.2024</td>
+<td>
+<b>7. Thema: Buddhistische Psychologie</b><br /><br />
+Was hat Buddha über Psychologie gelehrt? Welche Methoden hat er
+vermittelt? Wie können wir unseren Geist reinigen? Wie helfen uns Buddhas
+Weisungen in unserem Alltag bei der geistigen Reinigung, besonders beim
+Erhalt und Wiederherstellung der Gesundheit?</td>
+</tr>
+<tr>
+<td>14.08.2024</td>
+<td><b>8. Thema: Samatha – Meditation</b><br /><br />
+Muss man vor der Vipassana-Praxis (Hellblick-Meditation) zuerst Samatha
+(Gemütsruhe-Meditation) praktizieren? Welche Verbindung gibt es zwischen
+diesen Meditationsmethoden? Wie übt man sich in Metta- (Liebende Güte)
+und Kasinameditation?</td>
+</tr>
+<tr>
+<td>11.09.2024</td>
+<td><b>9. Thema: Vipassana – Meditation</b><br /><br />
+Kann jeder die Vipassana-MeditaEon praktizieren oder ist sie nur für
+erfahrene Übende geeignet? Was ist die Essenz und was ist die Wirkung der
+Vipassana-Praxis?</td>
+</tr>
+<tr>
+<td>09.10.2024</td>
+<td><b>10. Thema: Wichtige Begriffe im Buddhismus</b><br /><br />
+An diesem Tag wird Bhante über bekannte wichtige Begriffe sprechen, welche
+in authentischen Texten genannt werden: Dukkha (Leiden), Sukkha (Glück),
+Upadana (Anhaftung), Nibbana (Erlöschen) und weitere Begriffe.</td>
+</tr>
+</table>
+
+<p>Die organisatorische Koordination für diesen Kurs übernimmt Monika Bretthauer, die
+Anmeldungen richten Sie bitte an die folgende Mail-Adresse: <SCRIPT LANGUAGE="JavaScript">user = 'mkaczor';site = 'gmx.de';document.write('<a href=\"mailto:' + user + '@' + site + '\">');document.write(user + '@' + site + ' </a>');</SCRIPT> Vor Kursbeginn erhalten Sie die Zugangsdaten zum Zoom-Meeting per Mail.</p>
+
+<p>Wer möchte, kann auch nur an einzelnen Terminen teilnehmen. Wer an allen Terminen
+	teilnimmt, kann ein Zertifikat als Teilnahmebestätigung erhalten.</p>
+
+<p>Zum Abschluss des Kurses erhalten alle Teilnehmer eine kleine Textsammlung mit dem Inhalt
+aller Vorträge.</p>
+
+<p>Wie in buddhistischen Ländern üblich, findet der Kurs auf freiwilliger Spendenbasis (Dana)
+statt.</p>
+
+<p>Diese können auf das Konto des BuddhisEschen Maha Vihara e.V. überwiesen werden</p>
+
+<p>
+Empfänger: Buddhistischer Maha Vihara e.V.<br />
+IBAN : DE31 2004 0000 0629 6107 00<br />
+BIC : COBADEFFXXX<br />
+Bank : Commerzbank Hamburg<br />
+Verwendungszweck: „Dana für Buddhistischen Vihara“<br />
+</p>
+
+<p>
+Je Termin empfehlen wir einen Betrag von 20,00 €.
+</p>
+
+
+</div>
+
+
+
+<div class="w3-half">
+
+
+
+</div>
+
+
+
+</div>
+
+<!-- /Container -->
+
+</div>
+
+<!-- /Work Row -->
+
+
+
+
+
+<div class="w3-container" style="position:relative">
+
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-highway-blue"
+
+  style="position:absolute;top:-28px;right:24px">+</a>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Uns folgen</h4>
+  <a class="w3-button w3-large w3-highway-blue" href="https://www.facebook.com/buddhistischermahavihara" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-highway-blue" href="https://www.google.com/maps/place/Buddhistischer+Maha+Vihara+e.V./@53.1144087,9.7942972,14z/data=!4m15!1m9!4m8!1m0!1m6!1m2!1s0x47b1b1cd1fc24295:0xf5da7237e6e79d1f!2sBuddhistischer+Maha+Vihara+e.V.,+Bockheberer+Weg+1,+29640+Schneverdingen,+Germany!2m2!1d9.79999!2d53.11536!3m4!1s0x0:0xf5da7237e6e79d1f!8m2!3d53.11536!4d9.79999?hl=de-DE" title="Google"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-highway-blue" href="https://www.instagram.com/buddhistischervihara/" title="Instagram"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-highway-blue w3-hide-small" href="https://www.youtube.com/channel/UCScmRYHwItAiwy3ON16LvZg" target="_blank" title="YouTube"><i class="fa fa-youtube"></i></a>
+  <p> Letzte aktualisierung : 30.12.2022 12:31:58</p>
+  <div align="center">© 2014-2021 Alle Rechte vorbehalten – Buddhistischer Maha Vihara e.V. Schneverdingen</div>
+<div>
+<p>
+<a href="./datenschutz_impressum.html" target="_blank">Datenschutz und Impressum</a>
+</p>
+</div>
+  <!-- <p>Powered by Template::Toolkit and <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>-->
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-highway-blue w3-hide-small">nach oben</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
