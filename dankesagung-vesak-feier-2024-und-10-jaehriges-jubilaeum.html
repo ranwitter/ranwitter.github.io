@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<title>Buddhistischer Vihara - Schneverdingen</title>
+<meta charset="UTF-16">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-light-green.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-khaki.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+<link rel="stylesheet" href="./custom.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body id="myPage">
+
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity header">
+  <!--<img src="../img/header_bg_dbh2.png" alt="boat" style="width:100%;">-->
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-highway-blue  w3-hover-white" title="Motto">Mögen alle Wesen glücklich sein!</button>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-highway-blue w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-highway-blue w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Mögen alle Wesen glücklich sein!
+      </h4>
+      <h5><i class="fa fa-smile-o">Das ist unsere Motto</i></h5>
+    </header>
+    <div class="w3-container">
+    </div>
+    <footer class="w3-container w3-highway-blue">
+      <p></p>
+    </footer>
+  </div>
+</div>
+
+<!-- Sidebar on click -->
+
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+
+    <i class="fa fa-remove"></i>
+
+  </a>
+
+  <a href="./archiv.html" class="w3-bar-item w3-button">Archiv</a>
+
+  <a href="./video.html" class="w3-bar-item w3-button">Video</a>
+
+  <a href="./spenden.html" class="w3-bar-item w3-button">Spenden</a>
+
+  <a href="./mitgliedschaft.html" class="w3-bar-item w3-button">Mitgliedschaft</a>
+
+  <a href="./kontakt.html" class="w3-bar-item w3-button">Kontakt</a>
+
+</nav>
+
+
+
+<!-- Navbar -->
+
+
+
+ <div class="w3-bar w3-theme-d2 w3-left-align rwi-sticky">
+
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+
+  <a href="index.html#" class="w3-bar-item w3-button "><i class="fa fa-home w3-margin-right"></i>Home</a>
+
+  <a href="ankuendigungen.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-highway-blue"> Ankündigungen</a>
+
+  <a href="moenche.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Mönche</a>
+
+  <a href="angebote.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Angebote</a>
+
+  <a href="archiv.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white   "> Archiv</a>
+
+  <a href="audio.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Audio</a>
+
+  <a href="video.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Video</a>
+
+  <a href="geschichte.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Geschichte</a>
+
+  <a href="verein.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Verein</a>
+
+  <a href="spenden.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Spenden</a>
+
+  <a href="mitgliedschaft.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Mitgliedschaft</a>
+
+  <a href="kontakt.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Kontakt</a>
+
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+
+ </div>
+
+
+
+  <!-- Navbar on small screens -->
+
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+
+    <a href="ankuendigungen.html" class="w3-bar-item w3-button">Ankündigungen</a>
+
+    <a href="moenche.html" class="w3-bar-item w3-button">Mönche</a>
+
+    <a href="angebote.html" class="w3-bar-item w3-button">Angebote</a>
+
+    <a href="archiv.html" class="w3-bar-item w3-button">Archiv</a>
+
+    <a href="audio.html" class="w3-bar-item w3-button">Audio</a>
+
+    <a href="video.html" class="w3-bar-item w3-button">Video</a>
+
+    <a href="geschichte.html" class="w3-bar-item w3-button">Geschichte</a>
+
+    <a href="verein.html" class="w3-bar-item w3-button">Verein</a>
+
+    <a href="spenden.html" class="w3-bar-item w3-button">Spenden</a>
+
+    <a href="mitgliedschaft.html" class="w3-bar-item w3-button">Mitgliedschaft</a>
+
+    <a href="kontakt.html" class="w3-bar-item w3-button">Kontakt</a>
+
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+
+  </div>
+
+<!-- header text starts -->
+
+<div class="w3-container w3-highway-blue">
+
+<h1>  Ankündigung </h1>
+
+</div>
+
+<!-- header text ends-->
+
+<!-- Work Row -->
+
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="danksagung-kathina-fest-2021">
+
+
+
+<div class="w3-container">
+
+<h2>Dankesagung Vesak Feier 2024 und 10-jähriges Jubiläum</h2>
+
+
+
+<div class="w3-half">
+
+<p>Anlässlich des Vesak-Festes, des zehnjährigen Jubiläums des Buddhistischen Maha Vihara in
+Schneverdingen, des 20-jährigen Jubiläums der Organisation Karuna Samadhi e.V., sowie der
+Vollendung des 60. Lebensjahres im Januar 2024 des Gründers beider Organisationen, Bhante
+Punnaratana, wurden am 01. Juni 2024 in Schneverdingen große Feierlichkeiten gefeiert. Der 01.
+Juni wurde als Datum ausgewählt, weil es der Todestag der Mutter Karuna von Bhante
+Punnaratana ist, die im Jahr 2003 verstorben war. In Gedenken an seine Mutter, hat Bhante
+seither jedes Jahr, insbesondere auch an diesem Tag, viele gute Dinge gemacht.
+Die offiziellen Feierlichkeiten haben von 9 bis 11 Uhr mit einer durch Bhante Seelawansa
+geführten Meditation begonnen. Alle Gäste waren herzlich eingeladen an dieser wertvollen
+Meditationspraxis teilzunehmen.</p>
+<p>Um 11:30 Uhr begann in einem großen, festlich geschmückten Zelt die Mittagessenszeremonie an
+der ca. 45 Nonnen und Mönche verschiedener Nationalitäten teilgenommen haben. Die
+Vollordinierten gehörten nicht nur der Theravada Tradition an, sondern auch der Tibetischen und
+der Mahayana Zen Tradition. Die Mittagessenszeremonie wurde durch Bhante Dr. Dhammika, den
+Abt des Buddhistischen Maha Vihara in Genf, geleitet. Innerhalb der Zeremonie betonte Bhante
+Dr. Dhammika in einer kurzen Rede gleichermaßen, wie wichtig die Praxis der Großzügigkeit und
+der Dankbarkeit für die Buddhistische Praxis sind. Die Zeremonie ging anschließend in die
+Sangha-Dana über, wie sie traditionell in Sri Lanka praktiziert wird, bei der die Ordinierten durch
+die Anwesenden Gäste mit einer Essensgabe beschenkt werden. Am Anschluss an die Sangha-
+Dana waren alle anwesenden Gäste herzlich dazu eingeladen, am kulinarischen, vielfältigen Buffet
+ihr Mittagessen einzunehmen.</p>
+<p>Die Feierlichkeiten wurden gegen 14 Uhr mit einem wunderschönen Einzug fortgesetzt, der durch
+die traditionellen Tanzgruppen Rasika Weerakoon & Team sowie Sulakshi Fonseka & Team
+angeführt wurde. Vor Beginn der Reden wurden die Zufluchtnahme und die fünf Sila durch Dr.
+Walpola Kalyanatissa Nayaka Thera geleitet. Diese wurden mit einer Rezitation des Metta Sutta
+durch die Theravada Nonnen des Dhammanikom-Zentrums und des Sirisampanno-Zentrums
+fortgesetzt, ebenso wie mit der Rezitation des Prajnaparamitta Sutta und einer Segnung durch die
+Zen-Sangha.</p>
+<p>Die Begrüßungsreden starteten mit einer Begrüßung durch Bhante Assaji auf singhalesisch und
+Bhante Sirinanda auf deutsch. Beide Mönche bewohnen den Buddhistischen Maha Vihara in
+Schneverdingen und haben sehr viel bei der Organisation und der Durchführung der
+Feierlichkeiten mitgewirkt. Bei der anschließenden Begrüßungsrede durch Bhante Punnaratana
+dankte er Ihnen ganz herzlich für Ihre Mühe und sprach auch über die Bedeutung der
+Feierlichkeiten in beiden Sprachen. Er dankte von Herzen auch Wegbegleitern, die ihn in den
+letzten 28 Jahren, die er in Deutschland lebt, auch durch schwere Krisen begleitet und unterstützt
+haben und blickte voller Dankbarkeit darauf zurück, welche Möglichkeiten sich ihm in
+Deutschland eröffnet haben und welche Früchte nun genossen werden können. Damit meinte er
+die Früchte der drei Bäume: Karuna Samadhi e.V., Buddhistischer Maha Vihara und des Campus
+der Sri Lanka Buddhist & Pali University. Von Herzen dankte er allen, die ihn bei der Umsetzung
+unterstützt haben.</p>
+<p>Im Anschluss an die Begrüßungsreden sprach der ehrwürdige Abt des Internationalen Zentrums
+Buddhismus in Paris auf singhalesisch. Inhaltlich wandte er sich an Sri Lanker, die im Ausland
+wohnen, und betonte wie schön und wertvoll es ist, einen Tempel zu haben, um die eigene Kultur
+zu erfahren und zu leben.</p>
+<p>Nach den Reden wurden drei ehrwürdigen Mönchen und Nonnen, Dr. Ven. Witharandeniye
+Kassapa Mahā thera (OBE) (UK), Ven. Rahathungoda Saddhāsumanā Mahā theri’s und Ven.
+Katugasthota Uparathana Mahā thera (USA), als große Ehrung, feierlich Dedikationen für ihr
+großes soziales Engagement durch die European Bhikkhu Association und den Buddhistischen
+Maha Vihara in Deutschland übergeben.
+Als künstlerische und musikalische Ergänzung folgte als Ehrung für die drei Juwelen ein Puja-Tanz
+durch Sulakshi-Fonseka & Team.</p>
+<p>Bevor es mit dem Programm weiterging, hielt der Moderator der Feierlichkeiten, Herr Lankananda
+Perera, eine kurze Rede über Bhantes Leben und die Aktivitäten der 28 Jahre seiner Tätigkeit in
+Deutschland. Im Laufe des Nachmittags wurden auch kurze Reden von Bhante Dr. Kassapa und
+Bhante Uparathana (USA) gehalten, ebenso wie Grußworte der Sri Lankischen Botschafterin Mrs.
+Varuni Muthukumarana und des stellvertretenden Bürgermeisters der Stadt Schneverdingen, Hr.
+Carsten Gevers, der die Bedeutsamkeit des Buddhistischen Maha Vihara in Schneverdingen
+hervorhob.</p>
+<p>Als weiterer musikalischer Punkt hat das Rasika Weerakoon Team einen in Sri Lanka sehr
+berühmten, traditionellen und besonderen Kandian-Tanz aufgeführt.</p>
+<p>Das Feierlichkeiten-Programm wurde anschließend mit Reden in deutscher Sprache fortgesetzt.
+Anlässlich der Vesak-Feier hat Bhante Seelawansa aus Wien zunächst darüber gesprochen, welch
+ein großes Glück für die Welt es ist, wenn jemand die Buddhaschaft realisieren kann. Er sprach
+über die ersten Lebensjahre des jungen Siddharta Gautama als Prinz, bevor dieser sein
+häusliches Leben verließ. Bhante sprach über die Gründe, warum Siddharta den Palast verließ,
+über Siddhartas Übungspraxis vor der Buddhaschaft und darüber wie er die Buddhaschaft
+realisieren konnte. Auch fand die Lehrrede „Maha Parinibbana Sutta“ Erwähnung, welche Buddha
+kurz vor seinem Tod gesprochen hatte.</p>
+<p>Die nächste Rede wurde durch Ayya Agganyani gehalten. Sie berichtete über die geschichtliche
+Entwicklung des Theravada-Buddhismus in Deutschland, seine Wegbereiter, seine Anfänge und
+die aktuelle Situation. Auch manche Missverständnisse über den Theravada Buddhismus in
+Deutschland fanden Erwähnung.</p>
+<p>Im Rahmen der Festtagsreden folgte anschließend eine Vorstellung des Karuna Samadhi e.V.
+Eingeleitet wurde diese durch das „Karuna Samadhi“-Lied, welches mit vielen Bildern untermalt
+wurde. Über die Anfänge, die Erfolge und die aktuelle Arbeit des Vereins berichtete anschließend
+Monika Bretthauer in einem kurzen Vortrag. Dabei wurde deutlich, dass die Haupttätigkeit des
+Vereins sowohl in der Vermittlung und Betreuung von Patenschaften für Kinder, Erzieher/
+Erzieherinnen, Lehrkräfte und Novizen sowie Novizinnen in Sri Lanka liegt, als auch bei der
+Umsetzung vieler anderer Projekte.</p>
+<p>Zum Thema „Achtsamkeit in der Schule“ hielt im Anschluss Herr Werner Heidenreich eine Rede.
+Er erzählte, welche Bemühungen es derzeit gibt, dieses Thema im Schulkontext präsenter zu
+machen. Dabei ließ er nicht unerwähnt, wie schwierig gerade das vor dem Hintergrund der
+aktuellen schulischen Situation ist.</p>
+<p>Die Vorträge wurden durch die Dankesworte von Gisela Menzel abgerundet. Auch hat sie im
+Anschluss ein gemeinsames Geschenk an Bhante gegeben.</p>
+<p>Nach einer kurzen Pause, haben um ca. 17:30 Uhr Sri Lankische Kinder und Erwachsene über
+Buddha und die drei Juwelen auf singhalesisch gesungen.</p>
+<p>Um 18:00 Uhr wurde eine Andacht für 28 Buddhas durch Bhante Suneetha aus Canada gehalten.
+Der Feierliche Tag wurde mit einer Segnungsrezitationszeremonie um 19 bis ca. 20 Uhr
+fortgesetzt. Die Rezitationszeremonie beinhaltete sowohl Rezitationen für alle Lebewesen,
+Verdienstübertragung, als auch das Teilen von Glücksbändern und gesegneten Wassers.</p>
+<p>Es war eine rundum gelungene Feier. Es waren viele Sri Lanker, viele Deutsche und andere
+Nationalitäten anwesend. Das kulinarische, musikalische und kulturelle Angebot war vielfältig und
+bunt. Auch waren viele verschiedene buddhistische Traditionen vertreten. Der Tempel und die
+Stupa waren schön geschmückt, die Besucher glücklich. Sogar die Sonne hat mitgemacht und hat
+allen Feiernden schönes Wetter beschert.</p>
+
+</div>
+
+
+
+<div class="w3-half">
+
+  <div class="w3-card w3-margin">
+      <img src="./bilder/dankesagung-vesak-feier-2024-und-10-jaehriges-jubilaeum/2024-06-04-1.jpeg" class="w3-white w3-padding" style="width:100%;padding: 8px 8px!important;" alt="">
+  </div>
+  <div class="w3-card w3-margin">
+      <img src="./bilder/dankesagung-vesak-feier-2024-und-10-jaehriges-jubilaeum/2024-06-04-2.jpeg" class="w3-white w3-padding" style="width:100%;padding: 8px 8px!important;" alt="">
+  </div>
+  <div class="w3-card w3-margin">
+      <img src="./bilder/dankesagung-vesak-feier-2024-und-10-jaehriges-jubilaeum/2024-06-04-3.jpeg" class="w3-white w3-padding" style="width:100%;padding: 8px 8px!important;" alt="">
+  </div>
+  <div class="w3-card w3-margin">
+      <img src="./bilder/dankesagung-vesak-feier-2024-und-10-jaehriges-jubilaeum/2024-06-04-4.jpeg" class="w3-white w3-padding" style="width:100%;padding: 8px 8px!important;" alt="">
+  </div>
+  <div class="w3-card w3-margin">
+      <img src="./bilder/dankesagung-vesak-feier-2024-und-10-jaehriges-jubilaeum/2024-06-04-5.jpeg" class="w3-white w3-padding" style="width:100%;padding: 8px 8px!important;" alt="">
+  </div>
+  <div class="w3-card w3-margin">
+      <img src="./bilder/dankesagung-vesak-feier-2024-und-10-jaehriges-jubilaeum/2024-06-04-6.jpeg" class="w3-white w3-padding" style="width:100%;padding: 8px 8px!important;" alt="">
+  </div>
+  <div class="w3-card w3-margin">
+      <img src="./bilder/dankesagung-vesak-feier-2024-und-10-jaehriges-jubilaeum/2024-06-04-7.jpeg" class="w3-white w3-padding" style="width:100%;padding: 8px 8px!important;" alt="">
+  </div>
+  <div class="w3-card w3-margin">
+      <img src="./bilder/dankesagung-vesak-feier-2024-und-10-jaehriges-jubilaeum/2024-06-04-8.jpeg" class="w3-white w3-padding" style="width:100%;padding: 8px 8px!important;" alt="">
+  </div>
+  <div class="w3-card w3-margin">
+      <img src="./bilder/dankesagung-vesak-feier-2024-und-10-jaehriges-jubilaeum/2024-06-04-9.jpeg" class="w3-white w3-padding" style="width:100%;padding: 8px 8px!important;" alt="">
+  </div>
+  <div class="w3-card w3-margin">
+      <img src="./bilder/dankesagung-vesak-feier-2024-und-10-jaehriges-jubilaeum/2024-06-04-10.jpeg" class="w3-white w3-padding" style="width:100%;padding: 8px 8px!important;" alt="">
+  </div>
+  <div class="w3-card w3-margin">
+      <img src="./bilder/dankesagung-vesak-feier-2024-und-10-jaehriges-jubilaeum/2024-06-04-11.jpeg" class="w3-white w3-padding" style="width:100%;padding: 8px 8px!important;" alt="">
+  </div>
+  <div class="w3-card w3-margin">
+      <img src="./bilder/dankesagung-vesak-feier-2024-und-10-jaehriges-jubilaeum/2024-06-04-12.jpeg" class="w3-white w3-padding" style="width:100%;padding: 8px 8px!important;" alt="">
+  </div>
+  <div class="w3-card w3-margin">
+      <img src="./bilder/dankesagung-vesak-feier-2024-und-10-jaehriges-jubilaeum/2024-06-04-13.jpeg" class="w3-white w3-padding" style="width:100%;padding: 8px 8px!important;" alt="">
+  </div>
+  <div class="w3-card w3-margin">
+      <img src="./bilder/dankesagung-vesak-feier-2024-und-10-jaehriges-jubilaeum/2024-06-04-14.jpeg" class="w3-white w3-padding" style="width:100%;padding: 8px 8px!important;" alt="">
+  </div>
+  <div class="w3-card w3-margin">
+      <img src="./bilder/dankesagung-vesak-feier-2024-und-10-jaehriges-jubilaeum/2024-06-04-15.jpeg" class="w3-white w3-padding" style="width:100%;padding: 8px 8px!important;" alt="">
+  </div>
+  <div class="w3-card w3-margin">
+      <img src="./bilder/dankesagung-vesak-feier-2024-und-10-jaehriges-jubilaeum/2024-06-04-16.jpeg" class="w3-white w3-padding" style="width:100%;padding: 8px 8px!important;" alt="">
+  </div>
+  <div class="w3-card w3-margin">
+      <img src="./bilder/dankesagung-vesak-feier-2024-und-10-jaehriges-jubilaeum/2024-06-04-17.jpeg" class="w3-white w3-padding" style="width:100%;padding: 8px 8px!important;" alt="">
+  </div>
+
+     
+</div>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+<!-- Container -->
+
+<div class="w3-container" style="position:relative">
+
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-highway-blue"
+
+  style="position:absolute;top:-28px;right:24px">+</a>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Uns folgen</h4>
+  <a class="w3-button w3-large w3-highway-blue" href="https://www.facebook.com/buddhistischermahavihara" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-highway-blue" href="https://www.google.com/maps/place/Buddhistischer+Maha+Vihara+e.V./@53.1144087,9.7942972,14z/data=!4m15!1m9!4m8!1m0!1m6!1m2!1s0x47b1b1cd1fc24295:0xf5da7237e6e79d1f!2sBuddhistischer+Maha+Vihara+e.V.,+Bockheberer+Weg+1,+29640+Schneverdingen,+Germany!2m2!1d9.79999!2d53.11536!3m4!1s0x0:0xf5da7237e6e79d1f!8m2!3d53.11536!4d9.79999?hl=de-DE" title="Google"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-highway-blue" href="https://www.instagram.com/buddhistischervihara/" title="Instagram"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-highway-blue w3-hide-small" href="https://www.youtube.com/channel/UCScmRYHwItAiwy3ON16LvZg" target="_blank" title="YouTube"><i class="fa fa-youtube"></i></a>
+  <p> Letzte aktualisierung : 30.12.2022 12:31:58</p>
+  <div align="center">© 2014-2021 Alle Rechte vorbehalten – Buddhistischer Maha Vihara e.V. Schneverdingen</div>
+<div>
+<p>
+<a href="./datenschutz_impressum.html" target="_blank">Datenschutz und Impressum</a>
+</p>
+</div>
+  <!-- <p>Powered by Template::Toolkit and <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>-->
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-highway-blue w3-hide-small">nach oben</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
