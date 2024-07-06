@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<title>Buddhistischer Vihara - Schneverdingen</title>
+<meta charset="UTF-16">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-light-green.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-khaki.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+<link rel="stylesheet" href="./custom.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body id="myPage">
+
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity header">
+  <!--<img src="../img/header_bg_dbh2.png" alt="boat" style="width:100%;">-->
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-highway-blue  w3-hover-white" title="Motto">Mögen alle Wesen glücklich sein!</button>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-highway-blue w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-highway-blue w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Mögen alle Wesen glücklich sein!
+      </h4>
+      <h5><i class="fa fa-smile-o">Das ist unsere Motto</i></h5>
+    </header>
+    <div class="w3-container">
+    </div>
+    <footer class="w3-container w3-highway-blue">
+      <p></p>
+    </footer>
+  </div>
+</div>
+
+<!-- Sidebar on click -->
+
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+
+    <i class="fa fa-remove"></i>
+
+  </a>
+
+  <a href="./archiv.html" class="w3-bar-item w3-button">Archiv</a>
+
+  <a href="./video.html" class="w3-bar-item w3-button">Video</a>
+
+  <a href="./spenden.html" class="w3-bar-item w3-button">Spenden</a>
+
+  <a href="./mitgliedschaft.html" class="w3-bar-item w3-button">Mitgliedschaft</a>
+
+  <a href="./kontakt.html" class="w3-bar-item w3-button">Kontakt</a>
+
+</nav>
+
+
+
+<!-- Navbar -->
+
+
+
+ <div class="w3-bar w3-theme-d2 w3-left-align rwi-sticky">
+
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+
+  <a href="index.html#" class="w3-bar-item w3-button "><i class="fa fa-home w3-margin-right"></i>Home</a>
+
+  <a href="ankuendigungen.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Ankündigungen</a>
+
+  <a href="moenche.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Mönche</a>
+
+  <a href="angebote.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-highway-blue "> Angebote</a>
+
+  <a href="archiv.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white   "> Archiv</a>
+
+  <a href="audio.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Audio</a>
+
+  <a href="video.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Video</a>
+
+  <a href="geschichte.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Geschichte</a>
+
+  <a href="verein.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Verein</a>
+
+  <a href="spenden.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Spenden</a>
+
+  <a href="mitgliedschaft.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Mitgliedschaft</a>
+
+  <a href="kontakt.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Kontakt</a>
+
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+
+ </div>
+
+
+
+  <!-- Navbar on small screens -->
+
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+
+    <a href="ankuendigungen.html" class="w3-bar-item w3-button">Ankündigungen</a>
+
+    <a href="moenche.html" class="w3-bar-item w3-button">Mönche</a>
+
+    <a href="angebote.html" class="w3-bar-item w3-button">Angebote</a>
+
+    <a href="archiv.html" class="w3-bar-item w3-button">Archiv</a>
+
+    <a href="audio.html" class="w3-bar-item w3-button">Audio</a>
+
+    <a href="video.html" class="w3-bar-item w3-button">Video</a>
+
+    <a href="geschichte.html" class="w3-bar-item w3-button">Geschichte</a>
+
+    <a href="verein.html" class="w3-bar-item w3-button">Verein</a>
+
+    <a href="spenden.html" class="w3-bar-item w3-button">Spenden</a>
+
+    <a href="mitgliedschaft.html" class="w3-bar-item w3-button">Mitgliedschaft</a>
+
+    <a href="kontakt.html" class="w3-bar-item w3-button">Kontakt</a>
+
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+
+  </div>
+
+<!-- header text starts -->
+
+<div class="w3-container w3-highway-blue">
+
+<h1>  Dhammavortrag </h1>
+
+</div>
+
+<!-- header text ends-->
+
+
+
+<!-- Work Row -->
+
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="weihnachtsgruess-2020">
+
+<!-- Container -->
+
+<div class="w3-container">
+
+<h2>Theravāda-Buddhismus in Deutschland</h2>
+
+
+
+<div class="w3-half">
+
+
+
+<p>Ehrwürdiger Saṅgha, insbesondere lieber, ehrwürdiger Bhante Puññaratana,</p>
+<p>sehr geehrte Damen und Herren, </p>
+<p>liebe Dhamma-Brüder und -Schwestern!</p>
+
+<p>Zu allererst möchte auch ich meine Gratulation aussprechen zu den verschiedenen Jubiläen, die wir heute hier feiern:</p>
+<ul>
+<li>Den 60. bzw. 60½-sten Geburtstag Bhante Puññaratanas,</li>
+<li>das 20-jährige Bestehen des Karuṇā-Samādhi-Vereins,</li>
+<li>und das 10-jährige Bestehen des Mahāvihāra hier in Schneverdingen</li>
+<li>– und ich freue mich sehr, dass ich heute endlich die Gelegenheit habe, 
+dieses Kloster, diesen wunderbaren Tempel hier kennenzulernen.</li>
+</ul>
+
+<p>Bhante hatte mich gebeten, heute über den Theravāda-Buddhismus in Deutschland zu sprechen. Und da möchte ich erst einmal damit beginnen, die Bedeutung und den Begriff „Theravāda“ zu definieren.</p>
+
+<p>„Thera + vāda“ bedeutet die Schule der Ordensälteren (Theras). Und Thera ist ein Bhikkhu, der mindestens 10 Jahre dem Orden angehört. Ist der Theravāda also veraltet, überholt, altmodisch? Ganz klar: Nein. In Dhammānussati, der Betrachtung über den Dhamma finden wir: „Der Dhamma, die Lehre des Buddha ist akāliko, d.h. zeitlos.“</p>
+<p>Der Theravāda wird auch oft als ursprünglicher Buddhismus bezeichnet, oder sogar als Original-Buddhismus. Es ist nicht, wie oft behauptet, das Hinayāna, das kleine, minderwertige Fahrzeug, denn wir finden im Theravāda alle Ideale und Wege, Arahat, Bodhisatta, Pacceka- und Sammasambuddhaschaft.</p>
+
+<p>Der Theravāda blickt auf eine lückenlose, vollständige Überlieferung über die bald 2600 Jahre bis heute zurück, immer wieder bestätigt in den Konzilen. Er gründet auf dieser Überlieferung, die im Pālikanon niedergeschrieben ist, das sind die drei Sammlungen oder Körbe, Tipitaka. </p>
+<ul>
+<li>Der Vinaya enthält vor allem die Ordensregeln für Mönche und Nonnen, </li>
+<li>Suttanta die Lehrreden des Buddha und seiner Hauptschüler, </li>
+<li>der Abhidhamma die höhere Lehre, systematische Philosophie und Psychologie.</li>
+</ul>
+
+<p>Zum Theravāda gehört aber auch die umfangreiche, klassische Kommentarliteratur, d.h. Kommentare und Subkommentare, wie z.B. der Visuddhimagga (Der Weg zur Reinheit), der Abhidhammattha Saṅgaha, die Atthasāliṇī (Die Darlegung der Bedeutung) und viele mehr.</p>
+
+<p>Aber nicht nur die schriftliche Überlieferung ist wichtig, der Theravāda bietet auch eine durchgängige Praxis-Übertragung, gerade auch was die Meditationspraxis betrifft. Wir Theravādins können uns wirklich glücklich schätzen, somit in der direkten Lehrnachfolge des Buddha zu stehen. Und ich denke, das verpflichtet auch.</p>
+
+<p>Hierzu ein Zitat von Sayadaw U Nyanissara (Sitagu-Sayadaw) aus Myanmar: </p>
+<p>„Der Theravāda erhält den wahren Dhamma in seiner kristallklaren Reinheit. 
+Nichts wird verändert, nichts wird weggelassen, nichts hinzugefügt.“</p>
+
+<p>Ähnlich formulierte es Nyanatiloka in seiner Botschaft beim 6. Konzil 1954 in Rangun:
+„Das Konzil hat die Aufgabe, die Reinheit unserer traditionellen Texte zu erhalten, 
+die die Worte des Erleuchteten beinhalten. Es ist wirklich eine sehr wichtige Aufgabe, darauf zu achten, dass die Verlässlichkeit unserer traditionellen Texte das Vertrauen 
+in jenen inspiriert, die sie studieren, und dass die Texte keine Gelegenheit zu Verzerrungen, Zufügungen und Missinterpretationen geben. 
+Nur der reine Dhamma, der den Geschmack der Erleuchtung beibehält, 
+wird ein verlässlicher Führer sein für weises Verstehen und edle Handlungen.</p> 
+
+<p>Ich bin der Überzeugung, dass es nicht ohne Bedeutung und Folgen ist, 
+dass dies das erste Konzil ist, an dem westliche Mönche teilnehmen. 
+Diese Tatsache erfüllt mich mit der Hoffnung und dem Vertrauen, 
+dass der Saṅgha der vier Himmelsrichtungen sich in den Westen ausdehnen 
+und dort feste Wurzeln schlagen wird."</p>
+
+<p>- Hat er das?</p>
+
+<p>Ja, er hat sich auch bis Deutschland ausgedehnt, aber die Wurzeln sind meiner Meinung nach noch schwach. </p>
+
+<p>Es sind meist Ordensgemeinschaften und Klöster asiatischer Mönche, die nach Europa und eben auch Deutschland gekommen sind und insbesondere von ihren hier lebenden Landsleuten unterstützt werden; nur zögerlich entstehen Klöster von Deutschen für Deutsche. Die Deutsche Buddhistische Ordensgemeinschaft geht von ca. 20 bis 25 deutschsprachigen, westlichen Theravāda-Ordinierten in Deutschland aus, wovon aber eine Reihe nicht in Klöstern, sondern irgendwo irgendwie alleine leben; die wohl meisten deutschen Ordinierten leben allerdings im Ausland, viele in Thailand, Sri Lanka oder Myanmar, wo der Saṅgha traditionell zuhause ist, Unterstützung und Wertschätzung findet.</p>
+
+<p>Der erste deutsche Theravāda-Mönch war der Ehrw. Nyanatilika, der vor nunmehr 121 Jahren in Burma ordiniert wurde und dann vorwiegend in Sri Lanka lebte und wirkte.</p>
+<p>Seine Schriften und Übersetzungen sind noch heute beliebt, vor allem wegen ihrer Exaktheit. Da möchte ich nur seine Übersetzungen des Anguttara Nikāya (Angereihte Sammlung), Dhammapada, Milindapañha, Visuddhimagga und Abhidhammattha Saṅghaha nennen, seine Pāli-Grammatiken, seinen Führer durch den Abhidhamma-Piṭaka und sein Buddhistisches Wörterbuch, das – ins Englische übersetzt – große internationale Verbreitung gefunden hat. In der von ihm gegründeten Island Hermitage in Sri Lanka suchten und fanden eine Reihe Westlicher, auch Deutscher Männer Zuflucht und Anleitung im Orden. Weil eben hier in Deutschland noch kein Saṅgha existierte. </p>
+
+<p>Sein bekanntester deutscher Schüler war der Ehrw. Nyanaponika, der ebenfalls einen Schatz von Werken hinterließ. Den Dhamma-Vinaya hier in Deutschland zu leben und zu lehren, war ihnen leider nicht möglich. Die Zeit war noch nicht reif. Heute ginge es – vielleicht … </p>
+
+<p>Der deutschen Nonne Ayya Khema gelang es dann Ende der 80-er Jahre mit dem Buddha-Haus und bald dem Mettā-Vihāra, und heute gibt es Dutzende von Meditationsgruppen in dieser Ausrichtung. Auch das Waldkloster Muttodaya und die Nonnen-Klöster Aneñja-Vihāra, Sirisampanno und Dhammanikhom haben sich in Deutschland etabliert, haben Wurzeln geschlagen. Und zusätzlich gibt es noch einige Klöster, Zentren und Einsiedeleien, in denen oft nur ein Mönch oder eine Nonne lebt. Oder mit-lebt in einem Thai- oder sogar Mahāyāna-Kloster.</p>
+
+<p>Aber in Deutschland, wie im Westen allgemein, hat sich mehrheitlich ein Laien-Buddhismus durchgesetzt. Und es gab und gibt durchaus großartige, fest im Dhamma verwurzelte Deutsche Laien, die z.T. auch Übersetzungs- und Lehrtätigkeiten nachgehen und Meditationen und Retreats anbieten. In der Vergangenheit waren es Menschen wie Neumann, Seidenstücker, Dahlke, Grimm, Debes, Hecker und viele mehr. 
+Heute sind es – ich möchte keine Namen nennen – neben einzelnen Suttanta- oder Abhidhamma-Gelehrten vor allem Vipassanā-Lehrerinnen und -Lehrer. Viele z.T. alte Buddhistische Gesellschaften, wie die in Hamburg, Berlin und München haben sich längst geöffnet für alle buddhistischen Traditionen, oder sind es seit Anbeginn, wie die Seminarhäuser Engl, Haus der Stille und Waldhaus am Laacher See. </p>
+
+<p>Allerdings wird der Dhamma für meine Begriffe oft verwässert, zu sehr angepasst und verweltlicht. Denn die Menschen hier hören nicht so gerne von dukkha und lehnen mehrheitlich die authentische Karma-Lehre und Wiedergeburt ab, Nibbāna und Befreiung werden nicht als erstrebenswertes Ziel angesehen, missverstanden und oft weggelassen. </p>
+<p>Aber wo kommen wir da hin, schließlich hat der Buddha doch selbst gesagt: 
+„Meine Lehre hat nur einen Geschmack, den der Befreiung.“ </p>
+
+<p>Und dennoch, um physisch oder psychisch leidenden Menschen zu helfen, auch Nicht-Buddhisten, ist es natürlich heilsam und gut, ihnen einige nützliche Meditationstechniken zu lehren, auch wenn sie aus dem Kontext des vollständigen, zur Befreiung führenden Dhamma herausgelöst sind. Dies geschieht im Westen und hierzulande z.B. in den MBSR-Kursen (mindfulness based stress reduction) und an Kliniken. </p>
+
+<p>Aber gerade um die Vollständigkeit und Tiefe des Dhamma zu bewahren, sind für uns Deutsche nach wie vor Kontakte, Austausch und die Vorbilder asiatischer Buddhisten, vor allem natürlich Mönche und Nonnen, von großer Bedeutung. Und zum Glück haben wir jetzt sogar direkt in Deutschland einige Gelegenheiten dazu. Allerdings ist die sprachliche Barriere, besonders in den zahlreichen Thai-Klöstern, für Deutsche kaum überwindbar – was sehr schade ist. Und gerade deshalb möchte ich den Mahāvihāra hier besonders hervorheben, und Bhante Puññāratana, der längst Bestens Deutsch spricht und die deutsche Kultur, Lebens- und Denkweise sehr gut zu verstehen gelernt hat. Das habe ich schon vor 20 Jahren im Buddhistischen Haus in Berlin-Frohnau erleben dürfen.</p>
+<p>Die Deutsche Buddhistische Union, die in Anfangszeiten durchaus den Schwerpunkt Theravāda hatte, besteht inzwischen vorwiegend aus Mahāyāna-Gemeinschaften, allen voran tibetisch geprägten, oder auch zunehmend säkularen. Um den Theravāda innerhalb der DBU irgendwie zu bündeln und sichtbarer zu machen, haben wir deshalb 2002 die Theravāda-AG gegründet, und sie soll ein Netzwerk von Theravāda-Gruppen, -Klöstern und Einzelpersonen sein, mit einer gemeinsamen Webseite und gemeinsamen Projekten, Veranstaltungen und vor allem auch dem Kennen- und Wertschätzen-Lernen anderer Ausrichtungen und Schwerpunkte innerhalb des Theravāda.</p>
+
+<p>Immer noch gibt es leider Vorurteile, Theravāda-Buddhisten seien egoistisch, würden sich nur um die eigene Erleuchtung kümmern und sich nicht sozial engagieren (oder für Frieden, für die Um- und Mitwelt, usw.). Das stimmt aber nicht! </p>
+
+<p>Es gibt eine Menge von sozialem Engagement der Theravāda-Buddhisten von Deutschland: </p>
+<ul>
+<li>hier möchte ich natürlich als Erstes das Projekt Bhante Puññaratanas nennen, </li>
+<li>den Karuṇā-Samādhi e.V. – er wird ja gleich im nächsten Vortrag vorgestellt</li>
+<li>Remo Beyerlein: Karuṇā-Stiftung (Sri Lanka)</li>
+<li>Kambodschanisches Kulturzentrum: House of Peace</li>
+<li>Hamburger Suttanta-Gemeinschaft u.a.: Mitgefühl in Aktion e.V., eine Partnerorganisation von Buddhist Global Relief von Bhikkhu Bodhi </li>
+<li>Deutsch-Buddhistische Humanitäre Vereinigung, Darmstadt: Mahābodhi Society, Indien</li>
+<li>Buddha-Haus: Mahābodhi Ladakh, um Bhante Sanghasena</li>
+<li>u.v.m.</li>
+</ul>
+
+<p>Und zum Schluss nochmal ein Zitat des von mir besonders verehrten Nyanatiloka, das bei den Gründungszielen der Internationalen Buddhistischen Union vor fast 100 Jahren (diese gibt es längst nicht mehr) verfasst wurde – und das auch für uns Theravāda-Buddhisten in Deutschland ein Leitfaden sein sollte:</p>
+
+<p>„Bevor wir andere belehren wollen, müssen wir erst selbst die buddhistischen Tugenden der Verleugnung eines Selbst und Toleranz in die Tat umgesetzt haben und durch das Beispiel unserer Solidarität und gegenseitiger Hilfsbereitschaft den Beweis für den Wert unserer Weltanschauung erbracht haben. Wenn alle diejenigen, welche sich als Buddhisten betrachten, auch danach handeln, wird die übrige Welt bald von der Wahrheit des Buddhismus überzeugt sein. Das Beispiel ist die einzige faire Propaganda, die edelste Art, andere zu überzeugen.“</p>
+
+<p>Danke für Ihre und Eure Aufmerksamkeit. </p>
+
+<p>Mögen alle Wesen glücklich und in Frieden sein!</p>
+
+</div>
+
+
+
+<div class="w3-half">
+
+<p><i>Dieser Vortrag wurde von Ehrwürdige Ayya Agganyani (Sayalay Aggañāṇī) am 2. Juni 2024 an der Maha Vihara, Schneverdingen vorgetragen.</i></p>
+
+<p><i>Ihre Webseite ist <a href="https://abhidhamma.de">abhidhamma.de</a><i></p>
+</div>
+
+
+
+</div>
+
+<!-- /Container -->
+
+</div>
+
+<!-- /Work Row -->
+
+
+
+
+
+<div class="w3-container" style="position:relative">
+
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-highway-blue"
+
+  style="position:absolute;top:-28px;right:24px">+</a>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Uns folgen</h4>
+  <a class="w3-button w3-large w3-highway-blue" href="https://www.facebook.com/buddhistischermahavihara" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-highway-blue" href="https://www.google.com/maps/place/Buddhistischer+Maha+Vihara+e.V./@53.1144087,9.7942972,14z/data=!4m15!1m9!4m8!1m0!1m6!1m2!1s0x47b1b1cd1fc24295:0xf5da7237e6e79d1f!2sBuddhistischer+Maha+Vihara+e.V.,+Bockheberer+Weg+1,+29640+Schneverdingen,+Germany!2m2!1d9.79999!2d53.11536!3m4!1s0x0:0xf5da7237e6e79d1f!8m2!3d53.11536!4d9.79999?hl=de-DE" title="Google"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-highway-blue" href="https://www.instagram.com/buddhistischervihara/" title="Instagram"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-highway-blue w3-hide-small" href="https://www.youtube.com/channel/UCScmRYHwItAiwy3ON16LvZg" target="_blank" title="YouTube"><i class="fa fa-youtube"></i></a>
+  <p> Letzte aktualisierung : 30.12.2022 12:31:59</p>
+  <div align="center">© 2014-2021 Alle Rechte vorbehalten – Buddhistischer Maha Vihara e.V. Schneverdingen</div>
+<div>
+<p>
+<a href="./datenschutz_impressum.html" target="_blank">Datenschutz und Impressum</a>
+</p>
+</div>
+  <!-- <p>Powered by Template::Toolkit and <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>-->
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-highway-blue w3-hide-small">nach oben</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
