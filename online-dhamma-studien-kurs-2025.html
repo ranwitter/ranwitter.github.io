@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<title>Buddhistischer Vihara - Schneverdingen</title>
+<meta charset="UTF-16">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-light-green.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-khaki.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+<link rel="stylesheet" href="./custom.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body id="myPage">
+
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity header">
+  <!--<img src="../img/header_bg_dbh2.png" alt="boat" style="width:100%;">-->
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-highway-blue  w3-hover-white" title="Motto">Mögen alle Wesen glücklich sein!</button>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-highway-blue w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-highway-blue w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Mögen alle Wesen glücklich sein!
+      </h4>
+      <h5><i class="fa fa-smile-o">Das ist unsere Motto</i></h5>
+    </header>
+    <div class="w3-container">
+    </div>
+    <footer class="w3-container w3-highway-blue">
+      <p></p>
+    </footer>
+  </div>
+</div>
+
+<!-- Sidebar on click -->
+
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+
+    <i class="fa fa-remove"></i>
+
+  </a>
+
+  <a href="./archiv.html" class="w3-bar-item w3-button">Archiv</a>
+
+  <a href="./video.html" class="w3-bar-item w3-button">Video</a>
+
+  <a href="./spenden.html" class="w3-bar-item w3-button">Spenden</a>
+
+  <a href="./mitgliedschaft.html" class="w3-bar-item w3-button">Mitgliedschaft</a>
+
+  <a href="./kontakt.html" class="w3-bar-item w3-button">Kontakt</a>
+
+</nav>
+
+
+
+<!-- Navbar -->
+
+
+
+ <div class="w3-bar w3-theme-d2 w3-left-align rwi-sticky">
+
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+
+  <a href="index.html#" class="w3-bar-item w3-button "><i class="fa fa-home w3-margin-right"></i>Home</a>
+
+  <a href="ankuendigungen.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Ankündigungen</a>
+
+  <a href="moenche.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Mönche</a>
+
+  <a href="angebote.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-highway-blue "> Angebote</a>
+
+  <a href="archiv.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white   "> Archiv</a>
+
+  <a href="audio.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Audio</a>
+
+  <a href="video.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Video</a>
+
+  <a href="geschichte.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Geschichte</a>
+
+  <a href="verein.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Verein</a>
+
+  <a href="spenden.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Spenden</a>
+
+  <a href="mitgliedschaft.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Mitgliedschaft</a>
+
+  <a href="kontakt.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Kontakt</a>
+
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+
+ </div>
+
+
+
+  <!-- Navbar on small screens -->
+
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+
+    <a href="ankuendigungen.html" class="w3-bar-item w3-button">Ankündigungen</a>
+
+    <a href="moenche.html" class="w3-bar-item w3-button">Mönche</a>
+
+    <a href="angebote.html" class="w3-bar-item w3-button">Angebote</a>
+
+    <a href="archiv.html" class="w3-bar-item w3-button">Archiv</a>
+
+    <a href="audio.html" class="w3-bar-item w3-button">Audio</a>
+
+    <a href="video.html" class="w3-bar-item w3-button">Video</a>
+
+    <a href="geschichte.html" class="w3-bar-item w3-button">Geschichte</a>
+
+    <a href="verein.html" class="w3-bar-item w3-button">Verein</a>
+
+    <a href="spenden.html" class="w3-bar-item w3-button">Spenden</a>
+
+    <a href="mitgliedschaft.html" class="w3-bar-item w3-button">Mitgliedschaft</a>
+
+    <a href="kontakt.html" class="w3-bar-item w3-button">Kontakt</a>
+
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+
+  </div>
+
+<!-- header text starts -->
+
+<div class="w3-container w3-highway-blue">
+
+<h1>  Angebote </h1>
+
+</div>
+
+<!-- header text ends-->
+
+
+
+<!-- Work Row -->
+
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="online-studienkurs-2025">
+
+<!-- Container -->
+
+<div class="w3-container">
+
+<h2>Online-Kurse über Zoom im Jahr 2025</h2>
+
+
+<div class="w3-half">
+
+<p>Der Buddhistische Maha Vihara bietet im Jahr 2025 zwei Online-Kurse über Zoom an:</p>
+<ol>
+<li>Satipaṭṭhāna-Kurs (Achtsamkeitskurs) mit Bhante Punnaratana</li>
+<li>Universitätskurs der „Buddhist and Pali University of Sri Lanka“ mit Bhante Chandarathana (in Englisch)</li>
+</ol>
+
+<h3>Satipaṭṭhāna-Kurs</h3>
+
+<p>Der Satipaṭṭhāna-Kurs findet mittwochs von 19.00 – 21.00 Uhr über Zoom an folgenden 10 Terminen statt:  22.01.25, 12.02.25, 12.03.25, 09.04.25, 14.05.25, 11.06.25, 09.07.25, 13.08.25, 10.09.25, 08.10.25.</p>
+
+<p>Satipaṭṭhāna-Praxis ist die wichtige und bekannte Übung in der Theravada-Richtung, deswegen finden wir viele Texte und Lehrreden über Satipaṭṭhāna in der Theravada-Literatur, z.B. in der längeren Sammlung das Maha-Satipaṭṭhāna Sutta, in der mittleren Sammlung das Satipaṭṭhāna Sutta, in der gruppierten Sammlung die Satipaṭṭhāna-Samyutta (Gruppe), im Anguttara Nikaya (Angereihte Sammlung) das Satipaṭṭhāna-Vaga (Kapitel), auch Paṭisambhidāmagga über Satipaṭṭhāna (Erzählungen) und auch im Abhidhamma Vibhangapakarana gibt es die Satipaṭṭhāna-vibhanga (Analysierung, Detaillierung). Buddha hat in vielen Erklärungen und Reden über Satipaṭṭhāna gesprochen und so sehen wir in beiden Körben (Suttapitaka und Abhidhammapitaka) wie wichtig diese Praxis ist. </p>
+
+<p>Satipaṭṭhāna ist der direkte und einzige Weg, um Nibbana (Glückseligkeit oder Befreiung) zu realisieren. Am Anfang des Satipaṭṭhāna-Sutta werden viele Wirkungen erklärt, z.B. dass alle Sorge, Jammer und Unzufriedenheit durch Satipaṭṭhāna-Praxis überwunden werden können. Durch Satipaṭṭhāna-Praxis kultivieren wir nicht nur Sati (Achtsamkeit), sondern auch Pañña (Weisheit). Es gibt eine Reihenfolge, wie wir diesen Weg Schritt für Schritt kultivieren können. Wir fangen z.B. mit Ānāpānasati (Atemübungen)an, dann erfahren wir vier Satipaṭṭhāna (Körperbetrachtung, Gefühle-Betrachtung, Gedankenbetrachtung und geistige Objekte-Betrachtung), dann kultivieren wir die vier Satipaṭṭhāna. Wenn wir Erfahrung haben und diejenigen Betrachtungen voll erfahren haben, können wir sieben Bojjhaṅga (Faktoren der Befreiung) erfahren. Wenn jemand sieben Bojjhaṅga voll erfahren hat, dann realisiert er Vijjā und Vimutti (Weisheit und Befreiung), diesen Weg hat Buddha insbesondere im Ānāpānasati-Sutta und Girimananda-Sutta erläutert und gezeigt. In diesem Kurs wollen wir die Dhamma-Erklärungen anhand der originalen Texte beachten. Je Abend gibt es eine Andacht, Meditation und ca. 1 Stunde Vortrag. </p>
+
+<p>Anmelden können Sie sich für diesen Kurs bis zum 15.12.24. Die organisatorische Koordination übernimmt Monika Bretthauer. Zur Anmeldung schreiben Sie eine Mail an mkaczor@gmx.de. Nach Anmeldung erhalten Sie einen Zoom-Link für die Teilnahme. </p>
+
+
+<h3>Universitätskurs der „Buddhist and Pali University of Sri Lanka“ (in Englisch)</h3>
+
+<p>Der Universitätskurs der „Buddhist and Pali University of Sri Lanka“ ist ein Zertifikatskurs („Diploma in Buddhism“) und beinhaltet die vier Themengebiete (Prüfungsklausuren):</p>
+
+<ul>
+<li>Grundlegende Lehren des frühen Buddhismus (Early Buddhism Basic Doctrines)</li>
+<li>Soziale Dimension des Buddhismus (Buddhist Social Dimensions)</li>
+<li>Geographische Expansion des Theravada Buddhismus (Geographical Expansion of Theravada Buddhism)</li>
+<li>Frühe Geschichte des Buddhismus bis zum dritten Jahrhundert vor Christus (Early History of Buddhism up to the Third Century B.C.)</li>
+</ul>
+
+    
+<p>Kursleitung: Der Kurs wird geleitet durch Bhante Chandarathana. Er ist ein erfahrener Dozent der „Buddhist and Pali University of Sri Lanka“. Er studiert Zurzeit an der Universität in Hamburg und wohnt im Buddhistischen Maha Vihara in Schneverdingen.</p>
+
+<p>Termine: Der Kurs findet als Online-Kurs statt, mittwochs von 19.00 – 21.00 Uhr an den folgenden 10 Terminen: 15.01.25, 05.02.25, 05.03.25, 02.04.25, 07.05.25, 04.06.25, 02.07.25, 06.08.25, 03.09.25, 01.10.25.</p>
+
+<p>Ablauf: je Termin 1,5 Stunden Vortrag und 0,5 Stunde Diskussion. Die Themen der Vorträge finden Sie im Anhang (Topics).</p>
+
+<p>Sprache: Dieser Kurs wird in englischer Sprache geleitet (plain english). Die Prüfung kann entweder in deutscher oder englischer Sprache abgelegt werden.</p>
+
+<p>Prüfung: Eine Prüfung kann im Oktober in der Sri Lankischen Botschaft in Berlin an zwei aufeinander folgenden Tagen in Präsenz abgelegt werden (Termin wird noch bekannt gegeben). Jede Klausur besteht aus 10 Fragen, von denen jeweils 5 Fragen innerhalb von je 3 Stunden durch den Prüfling beantwortet werden müssen. Pro beantwortete Frage sind maximal 20 Punkte möglich. Zum Bestehen der Prüfung sind je Klausur mindestens 40 Punkte erforderlich. Bei Bestehen aller vier Klausuren erhalten sie ein international anerkanntes Zertifikat „Diploma in Buddhism“ der Buddhist and Pali University of Sri Lanka. </p>
+
+<p>Die Prüfungsgebühren betragen insgesamt 255,00 € (unverbindlich) (In den Gebühren sind 135,00 € für die Prüfungsanmeldung und 120,00 € für die Teilnahme an den Klausuren enthalten.) </p>
+
+<p>Anmeldefrist und Anmeldung: Wer mehr über den Buddhismus erfahren möchte, ohne an der Prüfung teilzunehmen, so ist auch das möglich. Die organisatorische Koordination übernimmt Monika Bretthauer. Bei Interesse schreiben Sie eine Mail an mkaczor@gmx.de.   Der Zoom-Link-Versand für die Teilnahme erfolgt nach Anmeldung. Eine Anmeldung für die Kursteilnahme ist bis zum 15.12.24 möglich. </p>
+
+<p>Wenn Sie auch an der Prüfung teilnehmen möchten, so ist eine Anmeldung für die Prüfung bis zum 15.03.25 möglich, ebenfalls per Mail an Monika Bretthauer. Sie erhalten per Mail ein Prüfungsanmeldeformular, welches ausgefüllt und mit einem Passbild versehen per Post bis spätestens 15.03.2025 an den Buddhistischen Maha Vihara in Schneverdingen gesendet werden muss. Ebenfalls bis 15.03.2025 wird die Prüfungsgebühr fällig. Die Kontonummer für die Überweisung wird mit Versand des Anmeldeformulars bekannt gegeben.</p>
+
+<p>Beide Kurse finden, wie es in der buddhistischen Kultur üblich ist, auf Spendenbasis statt (Dana). Die gesamten Lebenshaltungskosten der Sangha, wie Mahlzeiten, Strom, Wasser, Miete und andere, werden durch Spendeneinnahmen getragen. Wir empfehlen daher einen Spendenbeitrag von mindestens 20,00 € je Kurstermin. 
+Die Spenden für die Kursteilnahme können überwiesen werden auf das Konto des <i>Maha Vihara e.V. IBAN DE3120 0400 0006 2961 0700    BIC COBADEFFXXX bei der Commerzbank.</i></p>
+
+</div>
+
+
+
+<div class="w3-half">
+
+
+
+</div>
+
+
+
+</div>
+
+<!-- /Container -->
+
+</div>
+
+<!-- /Work Row -->
+
+
+
+
+
+<div class="w3-container" style="position:relative">
+
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-highway-blue"
+
+  style="position:absolute;top:-28px;right:24px">+</a>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Uns folgen</h4>
+  <a class="w3-button w3-large w3-highway-blue" href="https://www.facebook.com/buddhistischermahavihara" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-highway-blue" href="https://www.google.com/maps/place/Buddhistischer+Maha+Vihara+e.V./@53.1144087,9.7942972,14z/data=!4m15!1m9!4m8!1m0!1m6!1m2!1s0x47b1b1cd1fc24295:0xf5da7237e6e79d1f!2sBuddhistischer+Maha+Vihara+e.V.,+Bockheberer+Weg+1,+29640+Schneverdingen,+Germany!2m2!1d9.79999!2d53.11536!3m4!1s0x0:0xf5da7237e6e79d1f!8m2!3d53.11536!4d9.79999?hl=de-DE" title="Google"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-highway-blue" href="https://www.instagram.com/buddhistischervihara/" title="Instagram"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-highway-blue w3-hide-small" href="https://www.youtube.com/channel/UCScmRYHwItAiwy3ON16LvZg" target="_blank" title="YouTube"><i class="fa fa-youtube"></i></a>
+  <p> Letzte aktualisierung : 30.12.2022 12:31:58</p>
+  <div align="center">© 2014-2021 Alle Rechte vorbehalten – Buddhistischer Maha Vihara e.V. Schneverdingen</div>
+<div>
+<p>
+<a href="./datenschutz_impressum.html" target="_blank">Datenschutz und Impressum</a>
+</p>
+</div>
+  <!-- <p>Powered by Template::Toolkit and <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>-->
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-highway-blue w3-hide-small">nach oben</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
