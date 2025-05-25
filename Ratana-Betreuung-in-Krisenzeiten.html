@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html>
+<title>Buddhistischer Vihara - Schneverdingen</title>
+<meta charset="UTF-16">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-light-green.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-khaki.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+<link rel="stylesheet" href="./custom.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body id="myPage">
+
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity header">
+  <!--<img src="../img/header_bg_dbh2.png" alt="boat" style="width:100%;">-->
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-highway-blue  w3-hover-white" title="Motto">Mögen alle Wesen glücklich sein!</button>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-highway-blue w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-highway-blue w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Mögen alle Wesen glücklich sein!
+      </h4>
+      <h5><i class="fa fa-smile-o">Das ist unsere Motto</i></h5>
+    </header>
+    <div class="w3-container">
+    </div>
+    <footer class="w3-container w3-highway-blue">
+      <p></p>
+    </footer>
+  </div>
+</div>
+
+<!-- Sidebar on click -->
+
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+
+    <i class="fa fa-remove"></i>
+
+  </a>
+
+  <a href="./archiv.html" class="w3-bar-item w3-button">Archiv</a>
+
+  <a href="./video.html" class="w3-bar-item w3-button">Video</a>
+
+  <a href="./spenden.html" class="w3-bar-item w3-button">Spenden</a>
+
+  <a href="./mitgliedschaft.html" class="w3-bar-item w3-button">Mitgliedschaft</a>
+
+  <a href="./kontakt.html" class="w3-bar-item w3-button">Kontakt</a>
+
+</nav>
+
+
+
+<!-- Navbar -->
+
+
+
+ <div class="w3-bar w3-theme-d2 w3-left-align rwi-sticky">
+
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+
+  <a href="index.html#" class="w3-bar-item w3-button "><i class="fa fa-home w3-margin-right"></i>Home</a>
+
+  <a href="ankuendigungen.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Ankündigungen</a><!-- w3-highway-blue -->
+
+  <a href="moenche.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Mönche</a>
+
+  <a href="angebote.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Angebote</a>
+
+  <a href="archiv.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Archiv</a>
+
+  <a href="audio.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Audio</a>
+
+  <a href="video.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Video</a>
+
+  <a href="geschichte.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Geschichte</a>
+
+  <a href="verein.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Verein</a>
+
+  <a href="spenden.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Spenden</a>
+
+  <a href="mitgliedschaft.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Mitgliedschaft</a>
+
+  <a href="kontakt.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Kontakt</a>
+
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+
+ </div>
+
+
+
+  <!-- Navbar on small screens -->
+
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+
+    <a href="ankuendigungen.html" class="w3-bar-item w3-button">Ankündigungen</a>
+
+    <a href="moenche.html" class="w3-bar-item w3-button">Mönche</a>
+
+    <a href="angebote.html" class="w3-bar-item w3-button">Angebote</a>
+
+    <a href="archiv.html" class="w3-bar-item w3-button">Archiv</a>
+
+    <a href="audio.html" class="w3-bar-item w3-button">Audio</a>
+
+    <a href="video.html" class="w3-bar-item w3-button">Video</a>
+
+    <a href="geschichte.html" class="w3-bar-item w3-button">Geschichte</a>
+
+    <a href="verein.html" class="w3-bar-item w3-button">Verein</a>
+
+    <a href="spenden.html" class="w3-bar-item w3-button">Spenden</a>
+
+    <a href="mitgliedschaft.html" class="w3-bar-item w3-button">Mitgliedschaft</a>
+
+    <a href="kontakt.html" class="w3-bar-item w3-button">Kontakt</a>
+
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+
+  </div>
+
+<!-- header text starts -->
+
+<div class="w3-container w3-highway-blue">
+
+<h1>  Schriften </h1>
+
+</div>
+
+<!-- header text ends-->
+
+
+
+
+
+<!-- Work Row -->
+
+
+
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="vesak_feier_2021">
+
+
+
+
+
+
+
+<div class="w3-container">
+
+
+
+<h2>Ratana Betreuung in Krisenzeiten</h2>
+
+
+
+<div class="w3-half">
+
+<!-- begin body of docu--->
+
+
+<div title="header"><p style="line-height: 100%; margin-bottom: 0.26in">
+	<br>
+
+	</p>
+</div><p class="western" align="center" style="line-height: 100%; margin-bottom: 0in">
+<font face="Classical Garamond SSK, serif"><font size="4" style="font-size: 14pt">Leiden
+</font></font><font face="Classical Garamond SSK, serif"><font size="4" style="font-size: 14pt"><i>(dukkha)</i></font></font><font face="Classical Garamond SSK, serif"><font size="4" style="font-size: 14pt">:
+Hilfe in Krisenzeiten</font></font></p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" align="justify" style="line-height: 100%; margin-bottom: 0in">
+<font face="Classical Garamond SSK, serif">Die Medien berichten immer
+wieder von allerlei Krisen in der Wirtschaft, der Umwelt und der
+Politik, um gemeinsam mit den Fachleuten nach einer Lösung der
+Probleme zu suchen. Aber auch jeder Einzelne von uns hat im Laufe
+seines Lebens die unterschied­lichsten Probleme zu lösen. Als
+buddhistischer Mönch orientiere ich mich in Krisen­situationen
+an den Empfehlungen des Buddhas.</font></p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" align="justify" style="line-height: 100%; margin-bottom: 0in">
+<font face="Classical Garamond SSK, serif">Krisen gehören ebenso wie
+Glück, Leid und andere Empfindungen zum Leben aller Men­schen
+(also Laien) und auch ordinierter Menschen dazu. Betrachten wir das
+Leben des Buddha oder Jesus Christus, so sehen wir, dass auch sie
+schwere Krisen durch­gemacht haben. Das ging ausnahmslos allen
+so, beispielsweise Nelson Mandela, Mahat­ma Ghandi oder Mutter
+Theresa und vielen anderen. Alle haben Krisen erlebt, diese
+überwunden und so ihr eigenes Leben bereichert und vielen Menschen
+Glück gebracht. </font>
+</p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" align="justify" style="line-height: 100%; margin-bottom: 0in">
+<font face="Classical Garamond SSK, serif">Krisen haben Ursachen,
+d.h. sie sind aufgrund bestimmter Gegebenheiten entstanden. Diese
+Ursachen </font><font face="Classical Garamond SSK, serif"><b>können
+selbst</b></font><font face="Classical Garamond SSK, serif"> oder
+</font><font face="Classical Garamond SSK, serif"><b>durch äußere
+Faktoren</b></font><font face="Classical Garamond SSK, serif">
+verursacht sein. Nicht die Krisen sind das Problem, sondern der
+Umgang mit den Krisen. Viele Menschen, die von Krisen betroffen sind,
+haben deren Ursachen erkannt, diese als Her­ausforderung
+ange­se­hen und die Krisen erfolgreich bewältigt. </font>
+</p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" align="justify" style="line-height: 100%; margin-bottom: 0in">
+<font face="Classical Garamond SSK, serif">Einige Menschen sind
+jedoch der Meinung, dass Krisen auf ihr schlechtes Karma
+zu­rückzuführen und nicht zu ändern wären. Sie haben sich
+traurig mit dieser Situation ab­ge­funden. Probleme oder
+Schwierigkeiten sollten uns jedoch – wie ein Weckruf –
+veran­lassen, unsere eigene „eingefahrene“ Lebensweise, die
+möglicherweise die Ursache der Krise ist, zu hinterfragen und
+gegebenenfalls zu ändern. Wir sollten also diesem Stolper­stein
+„Krise“ dankbar sein und ihn nutzen, um achtsamer mit unserem
+kostbaren Men­schenleben umzugehen.</font></p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" align="justify" style="line-height: 100%; margin-bottom: 0in">
+<font face="Classical Garamond SSK, serif">Auch der Buddha hatte in
+seinem Leben </font><font face="Classical Garamond SSK, serif"><b>durch
+andere Menschen verursachte</b></font><font face="Classical Garamond SSK, serif">
+Schwie­rigkeiten zu bewältigen. Er wurde beispiels­weise
+immer wieder von (neidischen) Mit­men­schen verleumdet. So
+hat sein Schwager Devadatta dreimal ver­geblich versucht, ihn zu
+töten. Ein andermal wurde der Buddha bezichtigt, eine bekannte
+Prostituierte emp­fan­gen, getötet und begraben zu haben.
+Der Leichnam der Frau wurde in der Nähe des Ortes gefunden, an dem
+der Buddha seine Lehre (</font><font face="Classical Garamond SSK, serif"><i>dhamma</i></font><font face="Classical Garamond SSK, serif">)
+verkündete. </font>
+</p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" align="justify" style="line-height: 100%; margin-bottom: 0in">
+<font face="Classical Garamond SSK, serif">Während der Regenzeit, in
+der die Mönche drei Monate an einem Ort zu bleiben pflegen, hatte
+der Buddha einst Schwierigkeiten, eine Unterkunft zu finden, denn
+der­je­ni­ge, der ihn ein­geladen hatte, hatte diese
+Einladung vergessen. Das war für den Buddha eine schwe­re Zeit.
+An manchen Tagen hatte er nicht einmal etwas zu essen. Auch von
+körperlichem Leid blieb der Buddha nicht verschont, denn auch er
+wurde hin und wieder krank. Auch seine letzte Krankheit, der blutige
+Durchfall, war sehr schmerz­haft. </font>
+</p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" align="justify" style="line-height: 100%; margin-bottom: 0in">
+<font face="Classical Garamond SSK, serif">Diese Beispiele
+verdeutlichen, dass </font><font face="Classical Garamond SSK, serif"><b>alle</b></font><font face="Classical Garamond SSK, serif">
+Menschen in ihrem Leben heilsame und unheil­same Erfahrun­gen
+machen. Der Buddha fasste sie zusammen als „Weltliche
+Bedin­gun­gen“  (</font><font face="Classical Garamond SSK, serif"><i>Loka-dhamma</i></font><font face="Classical Garamond SSK, serif">),
+die acht Dinge, die in dieser Welt zusammen auftreten, näm­lich:</font></p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><font face="Classical Garamond SSK, serif"><i>Labha</i></font><font face="Classical Garamond SSK, serif">
+(Gewinn) / </font><font face="Classical Garamond SSK, serif"><i>Alabha</i></font><font face="Classical Garamond SSK, serif">
+(Verlust)</font></p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><font face="Classical Garamond SSK, serif"><i>Yasa</i></font><font face="Classical Garamond SSK, serif">
+(Ruhm) / </font><font face="Classical Garamond SSK, serif"><i>Ayasa</i></font><font face="Classical Garamond SSK, serif">
+(Misserfolg)</font></p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><font face="Classical Garamond SSK, serif"><i>Ninda</i></font><font face="Classical Garamond SSK, serif">
+(Lob) / </font><font face="Classical Garamond SSK, serif"><i>Pasamsa
+</i></font><font face="Classical Garamond SSK, serif">(Tadel)</font></p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><font face="Classical Garamond SSK, serif"><i>Sukha</i></font><font face="Classical Garamond SSK, serif">
+(Vergnügen) / </font><font face="Classical Garamond SSK, serif"><i>Dukkha</i></font><font face="Classical Garamond SSK, serif">
+(Leiden)</font></p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" align="justify" style="line-height: 100%; margin-bottom: 0in">
+<font face="Classical Garamond SSK, serif">Diese acht Gegebenheiten
+oder Bedingungen entsprechen den Speichen eines Rades und drehen sich
+wie ein Rad. Dieses Beispiel demonstriert, dass Krisen normal sind
+und wir darüber nicht verwundert sein dürften. </font>
+</p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><font face="Classical Garamond SSK, serif">Der
+Buddha lehrte, dass Krisensituationen </font><font face="Classical Garamond SSK, serif"><b>drei
+unheilsame Wurzeln</b></font><font face="Classical Garamond SSK, serif">
+(</font><font face="Classical Garamond SSK, serif"><i>mûla</i></font><font face="Classical Garamond SSK, serif">)
+verursacht werden, nämlich: </font>
+</p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><font face="Classical Garamond SSK, serif">Gier/</font><font face="Classical Garamond SSK, serif"><i>Lobha</i></font><font face="Classical Garamond SSK, serif">
+oder </font><font face="Classical Garamond SSK, serif"><i>Râga</i></font></p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><font face="Classical Garamond SSK, serif">Hass/</font><font face="Classical Garamond SSK, serif"><i>Dosa</i></font></p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><font face="Classical Garamond SSK, serif">Verblendung/</font><font face="Classical Garamond SSK, serif"><i>Moha</i></font></p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" align="justify" style="line-height: 100%; margin-bottom: 0in">
+<font face="Classical Garamond SSK, serif">Als Gegenmittel empfahl er
+Geduld, Dankbarkeit, Vergebung und Gleich­­mut, das
+be­son­­ders bei negativen Erfahrungen zu Erkenntnis und
+Lösung der Probleme führen kann. Wie kommt es aber nun, dass wir so
+schnell – und unüberlegt – an Phänomenen oder Situationen
+haften und sie ablehnen oder für immer besitzen und aufrechterhalten
+wollen? Wie entstehen diese Verhaltensweisen?</font></p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" align="justify" style="line-height: 100%; margin-bottom: 0in">
+<font face="Classical Garamond SSK, serif">Durch unsere fünf Sinne
+nehmen wir Eindrücke auf, die wir gedanklich verarbeiten und als
+„gut“ und/oder „schlecht“ beurteilen. An den „guten“
+Phänomen haften wir – </font><font face="Classical Garamond SSK, serif"><i>lobha</i></font><font face="Classical Garamond SSK, serif">,
+(</font><font face="Classical Garamond SSK, serif"><b>Gier)</b></font><font face="Classical Garamond SSK, serif">,
+die „schlechten“ lehnen wir ab </font><font face="Classical Garamond SSK, serif"><i>dosa</i></font><font face="Classical Garamond SSK, serif">
+(Wut, </font><font face="Classical Garamond SSK, serif"><b>Hass)</b></font><font face="Classical Garamond SSK, serif">.
+ Wenn wir an „gute“ Situatio­nen denken, sehnen wir uns nach
+ihnen, wenn wir er­neut an „schlechte“ Situationen den­ken,
+steigert sich unser Hass. Es sind aber nicht die Phänomene an sich,
+die be­geh­rens­wert oder hassenswert sind, sondern
+unsere sub­jek­tive Bewertung macht sie dazu. Was sind aber
+die Ursachen dafür, dass wir uns unser Le­ben durch unser
+eigenes Verhalten so leidvoll machen?</font></p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" align="justify" style="line-height: 100%; margin-bottom: 0in">
+<font face="Classical Garamond SSK, serif">Der Buddha hat in seiner
+Darlegung der „Vier Edlen Wahrheiten“ (</font><font face="Classical Garamond SSK, serif"><i>ariya-sacca</i></font><font face="Classical Garamond SSK, serif">)
+nicht nur festgestellt, dass unser Leben leidhaft (</font><font face="Classical Garamond SSK, serif"><i>dukkha</i></font><font face="Classical Garamond SSK, serif">)
+ist, sondern auch deren Ursachen so­wie einen Weg zur Behebung
+dieser Ursachen (</font><font face="Classical Garamond SSK, serif"><i>a</i></font><font face="Classical Garamond SSK, serif"><i>ṭṭhangika-magga</i></font><font face="Classical Garamond SSK, serif">)
+aufgezeigt</font><font face="Classical Garamond SSK, serif">. Diesen
+Weg muss jeder von uns Menschen selbst gehen. So ist </font><font face="Classical Garamond SSK, serif"><b>Verblendung</b></font><font face="Classical Garamond SSK, serif">
+(</font><font face="Classical Garamond SSK, serif"><i>moha</i></font><font face="Classical Garamond SSK, serif">)
+die ver­werf­­lichste der drei Wurzeln, denn sie ist die
+Grund­lage von Gier und Hass (</font><font face="Classical Garamond SSK, serif"><i>lobha/
+dosa</i></font><font face="Classical Garamond SSK, serif">).
+„Verblendung“ (</font><font face="Classical Garamond SSK, serif"><i>moha</i></font><font face="Classical Garamond SSK, serif">)
+bedeutet hier „Unwissenheit über Ursache und Wirkung“. </font>
+</p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" align="justify" style="line-height: 100%; margin-bottom: 0in">
+<font face="Classical Garamond SSK, serif">Schauen wir uns nochmals
+die </font><font face="Classical Garamond SSK, serif"><b>drei
+unheilsamen Wurzeln</b></font><font face="Classical Garamond SSK, serif">
+an. Wenn wir die Wurzel </font><font face="Classical Garamond SSK, serif"><i>lobha</i></font><font face="Classical Garamond SSK, serif">
+oder </font><font face="Classical Garamond SSK, serif"><i>raga </i></font><font face="Classical Garamond SSK, serif">als
+einen Fehler betrachten, dann handelt es sich um einen geringen
+Fehler (</font><font face="Classical Garamond SSK, serif"><i>appasavajja</i></font><font face="Classical Garamond SSK, serif">).
+Hass (dosa) ist ein großer Fehler (</font><font face="Classical Garamond SSK, serif"><i>mahasavajja).
+</i></font><font face="Classical Garamond SSK, serif">Gier (</font><font face="Classical Garamond SSK, serif"><i>lobha</i></font><font face="Classical Garamond SSK, serif">
+oder </font><font face="Classical Garamond SSK, serif"><i>raga</i></font><font face="Classical Garamond SSK, serif">)
+ist aber schwerer zu überwinden (</font><font face="Classical Garamond SSK, serif"><i>dandhaviragi</i></font><font face="Classical Garamond SSK, serif">).
+</font><font face="Classical Garamond SSK, serif"><i>Dosa </i></font><font face="Classical Garamond SSK, serif">ist
+einfacher zu überwinden (</font><font face="Classical Garamond SSK, serif"><i>khippaviragi</i></font><font face="Classical Garamond SSK, serif">).
+Betrachten wir beispielsweise eine Per­son als unseren Feind und
+dieser hat einen Unfall, so können wir ihm gedanklich alles Gute und
+baldige Genesung wün­schen. </font>
+</p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" align="justify" style="line-height: 100%; margin-bottom: 0in">
+<font face="Classical Garamond SSK, serif"><i>Raga</i></font><font face="Classical Garamond SSK, serif">
+bzw. </font><font face="Classical Garamond SSK, serif"><i>lobha
+</i></font><font face="Classical Garamond SSK, serif">(Gier) in der
+Bedeutung von </font><font face="Classical Garamond SSK, serif"><b>Bedürftigkeit</b></font><font face="Classical Garamond SSK, serif">/Verlangen
+ist sehr schwer zu überwinden, denn ohne Bedürfnisse/Verlangen
+können wir nicht leben. Ohne </font><font face="Classical Garamond SSK, serif"><i>Raga
+</i></font><font face="Classical Garamond SSK, serif">gäbe es keine
+Kinder, keine wissenschaftliche Entwicklung etc. Auch wir selbst
+hätten dann nicht das Verlangen, die Leidhaftigkeit des Lebens zu
+erkennen und unsere Ein­stell­ung den Phänomenen gegenüber
+zu verändern. So ist Verlangen </font><font face="Classical Garamond SSK, serif"><b>an
+sich</b></font><font face="Classical Garamond SSK, serif"> nicht
+unbe­dingt sehr fehlerhaft, sondern vor allem das Ziel unseres
+Verlangens. </font><font face="Classical Garamond SSK, serif"><i>Raga</i></font><font face="Classical Garamond SSK, serif">
+bzw. </font><font face="Classical Garamond SSK, serif"><i>lobha</i></font><font face="Classical Garamond SSK, serif">
+kann – ähnlich wie ein scharfes Messer –  einem „unheilsamen“
+Ziel wie das Töten eines We­sens oder einem „heilsamen“ Ziel
+wie der Operation zur Gesundung eines kranken Wesens die­nen. Es
+ist sehr wichtig, diesem Unterschied Rechnung zu tragen.</font></p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" align="justify" style="line-height: 100%; margin-bottom: 0in">
+<font face="Classical Garamond SSK, serif"><b>Unwissenheit</b></font><font face="Classical Garamond SSK, serif">(</font><font face="Classical Garamond SSK, serif"><i>moha</i></font><font face="Classical Garamond SSK, serif">)
+in der Bedeutung von einem „unzutreffenden/fehlerhaften
+Ver­ständ­­­­nis der natürlichen Gegebenheiten“
+(</font><font face="Classical Garamond SSK, serif"><i>mahasavajja</i></font><font face="Classical Garamond SSK, serif">)
+wie beispielsweise die Annahme eines unvergänglichen Glücks oder
+der Beständigkeit der materiellen und/oder natürli­chen
+Gegebenheiten, ist ebenfalls schwer zu überwinden (</font><font face="Classical Garamond SSK, serif"><i>dandhaviragi</i></font><font face="Classical Garamond SSK, serif">).
+So wurde der Buddha einst von einer Mutter gerufen, deren Kind
+gestorben war. Sie forderte den Buddha auf, es wieder zum Leben zu
+erwecken und fragte verzweifelt: Warum ist gerade </font><font face="Classical Garamond SSK, serif"><b>mein</b></font><font face="Classical Garamond SSK, serif">
+Kind gestorben? Warum muss gerade </font><font face="Classical Garamond SSK, serif"><b>ich</b></font><font face="Classical Garamond SSK, serif">
+leiden? Der Buddha bat sie, ihm ein Reis­korn von einer Familie
+zu bringen, in der noch niemand gestorben wäre. So machte die Frau
+die </font><font face="Classical Garamond SSK, serif"><b>Erfahrung</b></font><font face="Classical Garamond SSK, serif">,
+dass Sterben eine natürliche Angelegenheit ist, die alle Wesen
+betrifft. Allein mit Worten hätte der Buddha sie nicht trösten
+können.</font></p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" align="justify" style="line-height: 100%; margin-bottom: 0in">
+<font face="Classical Garamond SSK, serif">Die dritte unheilsame
+Wurzel, nämlich Unwissenheit (</font><font face="Classical Garamond SSK, serif"><i>moha</i></font><font face="Classical Garamond SSK, serif">)
+als </font><font face="Classical Garamond SSK, serif"><b>Grundlage</b></font><font face="Classical Garamond SSK, serif">
+des rationa­len und emotionalen Verhaltens, kann nur verändert
+werden, wenn wir uns dessen be­wusst werden. Das geschieht jedoch
+nur selten, solange das eigene Leben glücklich ver­lau­fen
+zu scheint. Erst in </font><font face="Classical Garamond SSK, serif"><b>Krisensituationen,</b></font><font face="Classical Garamond SSK, serif">
+wie beispielsweise im oben angeführten Fall, hinterfragen wir das
+eigene Weltbild. Daher sollten wir Krisen nicht verur­teilen und
+ablehnen, sondern als Möglichkeiten betrachten, eingefahrene
+Verhaltens­muster zu ändern. </font>
+</p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" align="justify" style="line-height: 100%; margin-bottom: 0in">
+<font face="Classical Garamond SSK, serif"><i>Moha </i></font><font face="Classical Garamond SSK, serif">ist
+dafür verantwortlich, dass wir die eigene Persönlichkeit – das
+eigene Selbst –  als etwas wirklich Vorhandenes und Beständiges
+ansehen. Bei genauerer achtsamer Be­trach­tung lässt sich
+dieses „Selbst“ jedoch nicht lokaliseren und/oder näher
+bestimmen. </font>
+</p>
+<p class="western" align="justify" style="line-height: 100%; margin-bottom: 0in">
+<font face="Classical Garamond SSK, serif">Zur Abhilfe hat der Buddha
+die </font><font face="Classical Garamond SSK, serif"><b>Vipassanâ</b></font><font face="Classical Garamond SSK, serif">-Praxis
+empfohlen. </font><font face="Classical Garamond SSK, serif"><b>Achtsamkeit</b></font><font face="Classical Garamond SSK, serif">
+hilft uns, die Dinge zu sehen, wie sie wirklich sind, und wie wir mit
+Hilfe der fünf </font><font face="Classical Garamond SSK, serif"><i><b>Khandas</b></i></font><font face="Classical Garamond SSK, serif">
+(Daseins­­grup­pen) in Gedanken viele Welten entstehen
+lassen, die wir für dauerhafte Wirklich­keiten halten. Die Natur
+der Phänomene ist jedoch immerwährende Veränderung. Acht­samkeit,
+die Vipassanâ-Praxis, hilft uns zu realisieren, dass es kein festes
+ICH gibt. </font>
+</p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" align="justify" style="line-height: 100%; margin-bottom: 0in">
+<font face="Classical Garamond SSK, serif">Einige Lehrreden, nämlich
+das </font><font face="Classical Garamond SSK, serif"><b>Girimananda
+Sutta<a class="sdfootnoteanc" name="sdfootnote1anc" href="file:///tmp/lu17489aeebk.tmp/lu17489aeedl.tmp/Ratana-Betreuung-in-Krisenzeiten.htm#sdfootnote1sym"><sup>1</sup></a></b></font><font face="Classical Garamond SSK, serif">
+oder das </font><font face="Classical Garamond SSK, serif"><i>Bojjhanga
+Sutta, </i></font><font face="Classical Garamond SSK, serif">berich­ten,
+wie Mönche Krankheiten überwunden haben und wie­der gesund
+geworden sind. Im </font><font face="Classical Garamond SSK, serif"><i>Girimananda
+Sutta</i></font><font face="Classical Garamond SSK, serif"> werden
+die zehn in der </font><font face="Classical Garamond SSK, serif"><i>Vipassanâ</i></font><font face="Classical Garamond SSK, serif">-Meditation
+zu betrach­ten­den Objek­te einzeln aufgeführt:</font></p>
+<p class="western" align="justify" style="line-height: 100%; margin-bottom: 0in">
+<br>
+
+</p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><font face="Classical Garamond SSK, serif">der
+Unbestädigkeit ( </font><font face="Classical Garamond SSK, serif"><i>aniccâ
+saììa</i></font><font face="Classical Garamond SSK, serif">) </font>
+</p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><font face="Classical Garamond SSK, serif">der
+Unpersönlichkeit  (</font><font face="Classical Garamond SSK, serif"><i>anattâ
+saììa)</i></font><font face="Classical Garamond SSK, serif"> </font>
+</p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><font face="Classical Garamond SSK, serif">der
+Unreinheit/Widerlichkeit  (</font><font face="Classical Garamond SSK, serif"><i>asubha
+saììa</i></font><font face="Classical Garamond SSK, serif">) </font>
+</p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><font face="Classical Garamond SSK, serif">des
+Elends (</font><font face="Classical Garamond SSK, serif"><i>âdinâva
+saììa</i></font><font face="Classical Garamond SSK, serif">)</font></p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><font face="Classical Garamond SSK, serif">des
+Aufgebens/Verzichts (</font><font face="Classical Garamond SSK, serif"><i>pahana
+saììa</i></font><font face="Classical Garamond SSK, serif">)</font></p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><font face="Classical Garamond SSK, serif">der
+Leidenschaftslosigkeit (</font><font face="Classical Garamond SSK, serif"><i>viraga
+saììa</i></font><font face="Classical Garamond SSK, serif">)</font></p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><font face="Classical Garamond SSK, serif">der
+Erlöschung (</font><font face="Classical Garamond SSK, serif"><i>nirodhâ
+saììa</i></font><font face="Classical Garamond SSK, serif">)</font></p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><font face="Classical Garamond SSK, serif">der
+Abneigung gegen alle Welten (</font><font face="Classical Garamond SSK, serif"><i>sabba
+loke anabhirata saììa</i></font><font face="Classical Garamond SSK, serif">)</font></p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><font face="Classical Garamond SSK, serif">der
+Vergänglichkeit alles Gestalteten (</font><font face="Classical Garamond SSK, serif"><i>sabba
+sankharesu aniccâ saììa)</i></font></p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><font face="Classical Garamond SSK, serif">der
+Ein- und Ausatmung (</font><font face="Classical Garamond SSK, serif"><i>ânâpâna
+sati</i></font><font face="Classical Garamond SSK, serif">)</font></p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" align="justify" style="line-height: 100%; margin-bottom: 0in">
+<font face="Classical Garamond SSK, serif"><i>Girimananda</i></font><font face="Classical Garamond SSK, serif">
+hat Unterweisungen über diese zu betrachtenden Objekte erhalten und
+darüber meditiert. So ist er wieder genesen. Wir können uns
+folgende Fragen stellen: Was ist mein Körper? Was ist Wirklichkeit?
+Woraus besteht der Körper? Was sind Aggre­­ga­te,
+</font><font face="Classical Garamond SSK, serif"><i>Khandha</i></font><font face="Classical Garamond SSK, serif">,
+Elemente? Alles, was bedingt entstanden ist – auch das Glück! -,
+muss auch wieder vergehen. Da unser Körper bedingt entstanden ist,
+ist er vergänglich. Wir müssen uns also keine Sorgen über die
+unabänderliche Tatsache machen. </font>
+</p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p align="justify" style="line-height: 100%; margin-bottom: 0in"><font face="Classical Garamond SSK, serif">Und
+wie sieht es nun mit unserer Persönlichkeit – unserem ICH – aus?
+Auch sie ist be­dingt entstanden: durch die Zeugung unserer
+Eltern, die uns als Kind und Heran­wach-sende/n versorgt haben,
+sowie durch das Umfeld, das unsere Identität geprägt hat. Bei
+genauerer Betrachtung lässt sich nur – ähnlich wie bei der Ein-
+und Ausatmung – ein ständiger Prozess des Entstehens und Vergehens
+feststellen, aber kein unveränderliches bleibendes Wesen. Wir
+könnten uns auch fragen, ob wir wirklich (noch) die gleiche Person
+sind, wie auf Fotos aus der Kinheit. Die Belehrungen des Buddhas
+helfen uns bei der persönlichen </font><font face="Classical Garamond SSK, serif"><b>Erfahrung</b></font><font face="Classical Garamond SSK, serif">
+dieser Wahrheit, die sich allein durch Konzepte nicht lösen lässt.</font></p>
+<p style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" align="justify" style="line-height: 100%; margin-bottom: 0in">
+<font face="Classical Garamond SSK, serif">Auch wenn die Wirklichkeit
+ein ständiger Prozess des Entstehens und Vergehens ist, bedeu­tet
+das nicht, dass uns gleichgültig ist, was in der Welt passiert. Wie
+anfangs ges­agt, kön­nen wir auch unser Umfeld beim
+Überwinden von Krisen helfen und unterstüt­zen. Da­bei
+sollten wir jedoch unbedingt auf unsere persönliche
+Leistungsfähigkeit ach­ten. Wenn wir beispielsweise nicht
+schwimmen können, können wir auch keinen Ertrin­ken­den aus
+dem tiefen Wasser ziehen. Ebenso wenig können wir als einzelne
+Person nicht allen Menschen helfen. Wir können jedoch gegenüber
+Personen in Krisensituatio­nen positive Gedanken entwickeln und
+aufrechterhalten. </font>
+</p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" align="justify" style="line-height: 100%; margin-bottom: 0in">
+<font face="Classical Garamond SSK, serif">Der Buddha gab konkrete
+Anweisungen zur Entwicklung der vier Meditations­ob­jekte
+(</font><font face="Classical Garamond SSK, serif"><i>bhâvanâ</i></font><font face="Classical Garamond SSK, serif">),
+nämlich: die Entfaltung liebender Güte (</font><font face="Classical Garamond SSK, serif"><i>mettâ</i></font><font face="Classical Garamond SSK, serif">),
+Mitleid (</font><font face="Classical Garamond SSK, serif"><i>karuòâ</i></font><font face="Classical Garamond SSK, serif">),
+Mitfreude (</font><font face="Classical Garamond SSK, serif"><i>muditâ</i></font><font face="Classical Garamond SSK, serif">)
+und Gleichmut (</font><font face="Classical Garamond SSK, serif"><i>upekkhâ</i></font><font face="Classical Garamond SSK, serif">).
+Das Fundament der Buddhalehre ist Mitgefühl und Weisheit (</font><font face="Classical Garamond SSK, serif"><i>paììâ</i></font><font face="Classical Garamond SSK, serif">).
+ „Gleichmut“ bedeutet also nicht, das soziale Umfeld
+auszu­blen­den undbei offen­kundigen Vergehen nicht im
+Rahmen der eigenen Möglichkeiten einzugrei­fen.</font></p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" align="justify" style="line-height: 100%; margin-bottom: 0in">
+<font face="Classical Garamond SSK, serif">Weisheit (</font><font face="Classical Garamond SSK, serif"><i>paììâ</i></font><font face="Classical Garamond SSK, serif">)
+hilft uns insbe­son­dere, die Befleckungen (</font><font face="Classical Garamond SSK, serif"><i>kilesa)</i></font><font face="Classical Garamond SSK, serif">,
+nämlich die „den Geist trü­ben­den Leidenschaften“, zu
+überwinden und die absolute Wahrheit (</font><font face="Classical Garamond SSK, serif"><i>para­mattha
+sacca</i></font><font face="Classical Garamond SSK, serif">) zu
+erkennen, das heißt, zu erkennen und zu erfahren, „dass das
+Da­sein ein bloßer Prozess von beständig wechselnden
+körperlichen und geistigen Phäno­menen“ ist. Mitge­fühl
+fördert Freundlichkeit, Mitfreude und das Vermögen, sich mit
+anderen Wesen aus­zutau­schen und ihnen im Rahmen der eigenen
+Fähigkeiten einfühl­sam zu helfen. </font>
+</p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" align="justify" style="line-height: 100%; margin-bottom: 0in">
+<font face="Classical Garamond SSK, serif">Vielleicht wird die Krise
+von äußeren Umständen ausgelöst. Es kommt jedoch darauf an, ob
+wir diese widrigen Umstände als Krise empfinden. Wir können eine
+Krise stets überwinden, indem wir uns zunächst beruhigen, das
+heißt, den Geist ausbalancieren, mit innerem Abstand die Situation
+möglichst unvoreingenommen betrachten und … loslassen.  </font>
+</p>
+<p class="western" align="justify" style="line-height: 100%; margin-bottom: 0in">
+<br>
+
+</p>
+<h3 class="western" align="justify">Bhante Puññaratana</h3>
+<p class="western" align="justify" style="line-height: 100%; margin-bottom: 0in">
+<br>
+
+</p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<p class="western" style="line-height: 100%; margin-bottom: 0in"><br>
+
+</p>
+<div id="sdfootnote1"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote1sym" href="file:///tmp/lu17489aeebk.tmp/lu17489aeedl.tmp/Ratana-Betreuung-in-Krisenzeiten.htm#sdfootnote1anc">1</a><font face="Classical Garamond SSK, serif">
+	https://www-dhammatalks-org.translate.goog/books/ChantingGuide/Section0032.h</font></p>
+</div>
+<div title="footer"><p align="center" style="line-height: 100%; margin-top: 0.26in; margin-bottom: 0in">
+	<span style="background: #c0c0c0"><sdfield type="PAGE" subtype="RANDOM" format="PAGE">5</sdfield></span></p>
+	<p style="line-height: 100%; margin-bottom: 0in"><br>
+
+	</p>
+</div>
+
+<!-- Ende body of docu--->
+
+<hr />
+
+<p><i>Siehe auch Downloads : <a href="downloads/Ratana-Betreuung-in-Krisenzeiten.docx">Word Format (20.4 KB)</a></i></p>
+
+
+</div>
+
+
+
+
+
+<div class="w3-half">
+
+
+
+  <div class="w3-card w3-margin">
+
+
+
+
+
+
+
+  </div>
+
+
+
+  
+
+
+
+    <div class="w3-card w3-margin">
+
+
+
+      <!--<img src="./bilder/Termine_2025.jpg" class="w3-white w3-padding" style="width:50%;padding: 1px 1px!important;" alt="Termine 2025"/>-->
+
+
+
+  </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<!-- Container -->
+
+<div class="w3-container" style="position:relative">
+
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-highway-blue"
+
+  style="position:absolute;top:-28px;right:24px">+</a>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Uns folgen</h4>
+  <a class="w3-button w3-large w3-highway-blue" href="https://www.facebook.com/buddhistischermahavihara" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-highway-blue" href="https://www.google.com/maps/place/Buddhistischer+Maha+Vihara+e.V./@53.1144087,9.7942972,14z/data=!4m15!1m9!4m8!1m0!1m6!1m2!1s0x47b1b1cd1fc24295:0xf5da7237e6e79d1f!2sBuddhistischer+Maha+Vihara+e.V.,+Bockheberer+Weg+1,+29640+Schneverdingen,+Germany!2m2!1d9.79999!2d53.11536!3m4!1s0x0:0xf5da7237e6e79d1f!8m2!3d53.11536!4d9.79999?hl=de-DE" title="Google"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-highway-blue" href="https://www.instagram.com/buddhistischervihara/" title="Instagram"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-highway-blue w3-hide-small" href="https://www.youtube.com/channel/UCScmRYHwItAiwy3ON16LvZg" target="_blank" title="YouTube"><i class="fa fa-youtube"></i></a>
+  <p> Letzte aktualisierung : 30.12.2023 12:31:58</p>
+  <div align="center">© 2014-2021 Alle Rechte vorbehalten – Buddhistischer Maha Vihara e.V. Schneverdingen</div>
+<div>
+<p>
+<a href="./datenschutz_impressum.html" target="_blank">Datenschutz und Impressum</a>
+</p>
+</div>
+  <!-- <p>Powered by Template::Toolkit and <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>-->
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-highway-blue w3-hide-small">nach oben</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,1288 @@
+<!DOCTYPE html>
+<html>
+<title>Buddhistischer Vihara - Schneverdingen</title>
+<meta charset="UTF-16">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-light-green.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-khaki.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+<link rel="stylesheet" href="./custom.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body id="myPage">
+
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity header">
+  <!--<img src="../img/header_bg_dbh2.png" alt="boat" style="width:100%;">-->
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-highway-blue  w3-hover-white" title="Motto">Mögen alle Wesen glücklich sein!</button>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-highway-blue w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-highway-blue w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Mögen alle Wesen glücklich sein!
+      </h4>
+      <h5><i class="fa fa-smile-o">Das ist unsere Motto</i></h5>
+    </header>
+    <div class="w3-container">
+    </div>
+    <footer class="w3-container w3-highway-blue">
+      <p></p>
+    </footer>
+  </div>
+</div>
+
+<!-- Sidebar on click -->
+
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+
+    <i class="fa fa-remove"></i>
+
+  </a>
+
+  <a href="./archiv.html" class="w3-bar-item w3-button">Archiv</a>
+
+  <a href="./video.html" class="w3-bar-item w3-button">Video</a>
+
+  <a href="./spenden.html" class="w3-bar-item w3-button">Spenden</a>
+
+  <a href="./mitgliedschaft.html" class="w3-bar-item w3-button">Mitgliedschaft</a>
+
+  <a href="./kontakt.html" class="w3-bar-item w3-button">Kontakt</a>
+
+</nav>
+
+
+
+<!-- Navbar -->
+
+
+
+ <div class="w3-bar w3-theme-d2 w3-left-align rwi-sticky">
+
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+
+  <a href="index.html#" class="w3-bar-item w3-button "><i class="fa fa-home w3-margin-right"></i>Home</a>
+
+  <a href="ankuendigungen.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Ankündigungen</a><!-- w3-highway-blue -->
+
+  <a href="moenche.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Mönche</a>
+
+  <a href="angebote.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Angebote</a>
+
+  <a href="archiv.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Archiv</a>
+
+  <a href="audio.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Audio</a>
+
+  <a href="video.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Video</a>
+
+  <a href="geschichte.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Geschichte</a>
+
+  <a href="verein.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Verein</a>
+
+  <a href="spenden.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Spenden</a>
+
+  <a href="mitgliedschaft.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Mitgliedschaft</a>
+
+  <a href="kontakt.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Kontakt</a>
+
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+
+ </div>
+
+
+
+  <!-- Navbar on small screens -->
+
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+
+    <a href="ankuendigungen.html" class="w3-bar-item w3-button">Ankündigungen</a>
+
+    <a href="moenche.html" class="w3-bar-item w3-button">Mönche</a>
+
+    <a href="angebote.html" class="w3-bar-item w3-button">Angebote</a>
+
+    <a href="archiv.html" class="w3-bar-item w3-button">Archiv</a>
+
+    <a href="audio.html" class="w3-bar-item w3-button">Audio</a>
+
+    <a href="video.html" class="w3-bar-item w3-button">Video</a>
+
+    <a href="geschichte.html" class="w3-bar-item w3-button">Geschichte</a>
+
+    <a href="verein.html" class="w3-bar-item w3-button">Verein</a>
+
+    <a href="spenden.html" class="w3-bar-item w3-button">Spenden</a>
+
+    <a href="mitgliedschaft.html" class="w3-bar-item w3-button">Mitgliedschaft</a>
+
+    <a href="kontakt.html" class="w3-bar-item w3-button">Kontakt</a>
+
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+
+  </div>
+
+<!-- header text starts -->
+
+<div class="w3-container w3-highway-blue">
+
+<h1>  Schriften </h1>
+
+</div>
+
+<!-- header text ends-->
+
+
+
+
+
+<!-- Work Row -->
+
+
+
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="vesak_feier_2021">
+
+
+
+
+
+
+
+<div class="w3-container">
+
+
+
+<h2>UN Vesak Rede 2025</h2>
+
+
+
+<div class="w3-half">
+
+<!-- begin body of docu--->
+
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>An
+Exploration of Buddhist Principles on Conflict Resolution and
+Peace-building as Presented in the Pali discourses</b></font></font></p>
+<p class="western" align="right" style="line-height: 150%; margin-bottom: 0in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Ven.
+Dr. Rathmale Punnarathana </font></font>
+</p>
+<p class="western" align="right" style="line-height: 150%; margin-bottom: 0in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Former
+Senior lecturer </font></font>
+</p>
+<p class="western" align="right" style="line-height: 150%; margin-bottom: 0in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Johannes
+Gutenberg University in Mainz, Germany</font></font></p>
+<p class="western" align="right" style="line-height: 150%; margin-bottom: 0in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Head
+of the institute, Sri Lanka Buddhist and Pali University in Germany</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font>
+</p>
+<p class="western" align="right" style="line-height: 150%; margin-bottom: 0in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Chief
+Saṅgha-nāyaka of Germany </font></font>
+</p>
+<p class="western" align="justify" style="line-height: 150%; margin-top: 0.19in; margin-bottom: 0.19in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>Abstract</b></font></font></p>
+<p class="western" align="justify" style="line-height: 150%; margin-top: 0.19in; margin-bottom: 0.19in"><a name="_GoBack"></a>
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">This
+exploration delves into Buddhist teachings on conflict resolution and
+peace-building as presented in the Pali discourses. Conflict, an
+inevitable aspect of human society, is examined from both its
+destructive and positive aspects, with the aim to transform violent
+conflicts into peaceful processes through understanding and
+addressing their root causes. Buddhism identifies three primary
+causes of conflict-craving, hatred, and ignorance-and advocates for
+their transformation through the development of non-craving,
+non-hatred, and non-illusion. Buddhist conflict resolution is rooted
+in the principles of causality and the Four Noble Truths, offering a
+comprehensive theory that can be applied both spiritually and
+socially. The </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Mahānidāna-sutta</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+and other texts illustrate the psychological and social dynamics that
+fuel conflict, emphasizing internal transformation as the foundation
+for resolving external disputes. The Buddha’s teachings stress the
+importance of cultivating inner peace through morality, mental
+concentration, and wisdom, with the goal of fostering peace within
+oneself to bring about societal harmony. Furthermore, Buddhism
+highlights poverty, social inequalities, and other environmental
+factors as root causes of conflicts. Through practices like
+loving-kindness (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>mettā</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">)
+and non-cruelty, Buddhism proposes a path to peaceful coexistence,
+not only for individuals but for all living beings. The Buddha’s
+approach to peace-building involves ethical living, compassion, and
+mindfulness, and serves as a practical model for reducing conflicts
+and promoting long-term peace.</font></font></p>
+<p class="western" align="justify" style="line-height: 150%; margin-top: 0.19in; margin-bottom: 0.19in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>Keyword-</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+Conflicts, Resolution, Peace-building, Buddhism  </font></font>
+</p>
+<p class="western" align="justify" style="line-height: 150%; margin-top: 0.19in; margin-bottom: 0.19in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>Objective</b></font></font></p>
+<p class="western" align="justify" style="line-height: 150%; margin-top: 0.19in; margin-bottom: 0.19in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">This
+research seeks to investigate the doctrinal foundations within
+Buddhism that relate to conflict resolution and peace-building. It
+aims to understand how Buddhist principles can be applied in
+contemporary society, especially in areas afflicted by violence, to
+promote peaceful transformation and social harmony. The research will
+examine core Buddhist teachings-such as compassion, non-violence,
+mindfulness, and forgiveness-and analyze their potential to guide
+conflict resolution strategies. Ultimately, the goal is to explore
+how Buddhist values and practices can contribute to addressing the
+root causes of violence and help create a peaceful environment in
+societies impacted by conflict.</font></font></p>
+<p class="western" align="justify" style="line-height: 150%; margin-top: 0.19in; margin-bottom: 0.19in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>Methodology</b></font></font></p>
+<p class="western" align="justify" style="line-height: 150%; margin-top: 0.19in; margin-bottom: 0.19in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">The
+study utilized both primary and secondary sources to gather relevant
+data. Primary sources include Buddhist texts, scriptures, and
+teachings, while secondary sources comprise scholarly articles,
+books, and research papers related to the application of Buddhism in
+conflict resolution. Data collection was done through libraries,
+e-libraries, and scholarly discussions. Furthermore, the research
+method employed was primarily comparative in nature, allowing the
+researcher to compare Buddhist teachings with other conflict
+resolution theories, particularly from Western philosophies. This
+comparative approach helps in understanding the unique contributions
+of Buddhism to peace-building and how these teachings can be
+integrated into modern-day conflict resolution processes.</font></font></p>
+<p class="western" align="justify" style="line-height: 150%; margin-top: 0.19in; margin-bottom: 0.19in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>Research
+Problem</b></font></font></p>
+<p class="western" align="justify" style="line-height: 150%; margin-top: 0.19in; margin-bottom: 0.19in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Are
+there Buddhist teachings relevant to conflict resolution and peace?
+This question examines whether Buddhist philosophy offers specific
+insights or practices that can be applied to resolve conflicts,
+foster reconciliation, and promote lasting peace in societies
+struggling with violence.</font></font></p>
+<p class="western" align="justify" style="line-height: 150%; margin-top: 0.19in; margin-bottom: 0.19in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">If
+such teachings exist, how can they be implemented in a society that
+is deeply rooted in violence to foster peace and reconciliation? This
+question explores the practical application of Buddhist teachings in
+conflict-ridden societies. It seeks to understand how principles such
+as forgiveness, compassion, and the interdependence of all beings can
+be applied in modern-day social and political contexts to help
+transform violent behaviors and promote peaceful coexistence.</font></font></p>
+<p class="western" align="justify" style="line-height: 150%; margin-top: 0.19in; margin-bottom: 0.19in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>Discussion</b></font></font></p>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Diversity
+is indeed a natural circumstance </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">in</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+the world</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>,
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">and
+the</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">rise
+of conflict is also an inevitable fact in society. </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">C</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">onflicts
+are not always </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">entirely</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">negative,
+there are </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">also</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">positive
+aspects in conflicts</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">;</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+for example, the </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">today</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">common
+conflict </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">over</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">water
+(</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">the</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">lack
+of drinkable water) </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">promotes</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">positive
+attitudes among people </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">toward
+the</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">preservation
+of water resources and </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">the</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">environment.
+The positive aspect of this conflict is the preservation of water and
+environment. The negative aspect of the conflict on water is that it
+would be a cause for </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">world
+war</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">in
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">the</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+future.</font></font></p>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Conflict
+can arise at the individual level, community level, national level
+and global level. </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Whatever</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">conflicts
+arise</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">,</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+from the individual family level to the global level, the nature of
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">conflict</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+is that it is inevitable and cannot be eliminated from the world.
+Accounts of the past 5000 years of history reveal that only 92 years
+have </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">passed</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+with no conflict or war. This fact shows </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">that
+for over 98% of the past 5000 years society</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+– </b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">in
+a global sense</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+– </b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">has
+been affected by war.<a class="sdfootnoteanc" name="sdfootnote1anc" href="#sdfootnote1sym"><sup>1</sup></a>This
+shows</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">the
+inevitable nature of conflict. Hence, attempt should not </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">be
+made</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">to
+eradicate conflict but to transform the violent nature of conflict
+into a </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">non-violent
+process through</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i><b>
+</b></i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">understanding
+and identifying the root causes of conflict.</font></font></p>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Buddhism
+has recognized three root causes of arising conflicts at the
+individual level: craving (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>lōbha</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">),
+hatred (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>dōsa</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">)
+and ignorance (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>mōha</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">).<a class="sdfootnoteanc" name="sdfootnote2anc" href="#sdfootnote2sym"><sup>2</sup></a>
+These three root causes are latent in everyone's mind and are
+interdependent. Even though there is no destructive nature </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">apparent
+in the latent state</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i><b>
+</b></i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">of
+the above three roots in one's mind, with contact with external
+objects they </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">manifest
+as</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">violent
+and destructive. The craving (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>lōbha</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">)
+is an insatiable desire to acquire; the insatiable desire </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">gives
+rise to</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+covetousness (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>abhijjhā
+visamalōbha</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">).
+This covetousness is the stage of conflict that arises due to the
+strong attachment to the things an individual likes. Hatred (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>dōsa</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">)
+is the resentment directed toward the people and circumstances that
+cause </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">the
+arising</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">of
+ill will (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>vyāpāda</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">).
+The ill will cause</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>s</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+destructive violence in society such as killing and injuring others.
+The ignorance (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>mōha</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">)
+is the lack of understanding and unawareness of the real
+circumstances. Ignorance causes a strong attachment to wrong views
+(</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>miccādiṭṭhi</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">).
+Many religious conflicts arise due to the misunderstanding of the
+real meaning of religion. Thus, Buddhism distinguishes the above
+three mental conditions as the root causes of </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">the
+arising of</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">conflict
+from the individual level to the global level.</font></font></p>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">As
+a consequence</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i><b>,
+</b></i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">the
+Buddhist way of transforming conflict into a constructive and
+non-violence state depends on the development and cultivation of
+opposites of the above three roots. The positive </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">counterparts</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">of
+craving, hatred and illusion are non-craving (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>alōbha</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">)
+non-hatred (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>adōsa</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">)
+and non-illusion (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>amōha</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">).<a class="sdfootnoteanc" name="sdfootnote3anc" href="#sdfootnote3sym"><sup>3</sup></a>
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">The</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+Buddha said, “Because of craving, there arise grievances or sorrow
+and fear. When freed from it, there is neither sorrow nor fear.”<a class="sdfootnoteanc" name="sdfootnote4anc" href="#sdfootnote4sym"><sup>4</sup></a>
+In </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Sigālōvāda-sutta</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">,
+desire (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>chanda</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">)
+hatred (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>dōsa</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">)
+fear (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>bhaya</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">)
+and ignorance (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>mōha</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">)
+have been </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">identified
+as</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+the mental drives that cause harm to the individual and the society
+and there mentions that </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">for</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+the person who </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">is</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">freed
+from the above vulgar states of mind, his goodness and repute grow
+like the moon </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">when
+waxing<a class="sdfootnoteanc" name="sdfootnote5anc" href="#sdfootnote5sym"><sup>5</sup></a></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">.
+Buddhism emphasizes that conflict resolution should be started within
+man himself </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">in
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">reducing
+his </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">or
+her</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+vulgar mental drives like craving, hatred and ignorance by developing
+non-craving non-hatred and non-illusion. The transformation of
+destructive mental conditions like craving etc. into constructive
+positive </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">counterparts</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+is not a short-term process. It is a </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">long-term</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">gradual
+process based on the practical engagement of charity (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>dāna</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">),
+morality (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>sīla</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">)
+and meditation (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>bhāvanā</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">).
+</font></font>
+</p>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">The
+Buddhist interpretation of conflict and the root cause of conflicts
+have mostly </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">been
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">elaborated
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">in
+terms of</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">the
+central teaching of Buddhism, causality (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>paṭiccasamuppāda</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">).
+According to Buddhist causality, every process of arising conflict
+and resolutionof conflict into a non-violent stage depends on the
+causal theory. Buddhist conflict resolution theory depicted in the
+analysis of the Four Noble Truths is one of the </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">best</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i><b>
+</b></i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">theories
+manifested in the Indian philosophical context, </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">and
+relates to the theory of cause and effect</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">.
+The four </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">levels
+to be consistent with what follows</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i><b>
+</b></i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">preached
+by the Buddha are, 1) </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Conflict</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">,
+2) </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">The</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+cause of conflict, 3) </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">The</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+resolution of conflict, and </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">4</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">)
+The way to the resolution of conflict. The first two levels are,
+understanding and recognizing of nature of conflict and the root
+causes of conflict. The third and fourth levels deal with the
+conflict resolutionprocess. Prima </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">facie</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">,
+this theory appeared as a way elaborated by Buddha to attain only
+spiritual mental states, however, it is not only a way to attain
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Nibbāna</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+but it is the clearest way that can be implemented to solve any
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">conflict
+condition in society</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>.</b></font></font></p>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">The</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>
+Mahānidāna-sutta</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+is one of the </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">suttas</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>
+</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">that
+explains the causal conditionality of origin conflict and social
+problems. Here, it explains the causal relativity of conflict in the
+following way. &quot;Feeling conditions craving, craving conditions
+seeking, seeking condition acquisition, acquisition conditions
+decision making, decision making conditions lustful desire, lustful
+desire conditions attachment, attachment conditions appropriation,
+appropriation conditions avarice, avarice condition girding, girding
+conditions taking up stick and sword, then, there arise quarrels,
+disputes, argument, strife, abuse, lying and other evil unskilled
+states.<a class="sdfootnoteanc" name="sdfootnote6anc" href="#sdfootnote6sym"><sup>6</sup></a>
+It should not be misunderstood here that the feeling (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>vedanā</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">)
+or craving (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>taṇhā</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">)
+is the first cause of arising conflicts because all the above links
+are interrelated to each other and process relatively with the
+contact of external objects through internal faculties of the
+individual. One of the famous </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">suttas</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">,
+which explain the method of contacting external objects with internal
+faculties, is </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Madhupiṇḍika-sutta</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">.
+For example, here it explains how an individual contact forms through
+the eyes “Through the contact</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i><b>
+</b></i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">of
+eye and forms, there arise eye-consciousness, the coming together of
+three is sense impression, sense-impression is conditional feeling,
+feeling is conditioned perception and so on”<a class="sdfootnoteanc" name="sdfootnote7anc" href="#sdfootnote7sym"><sup>7</sup></a></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><u>
+</u></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Other
+sense organs also </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">operate
+in a similar way on contact</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+with </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">respective</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+external objects. This psychological process causes to arise various
+conflicts in the external society. For example, the above
+characterization of causal relativity of </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">the</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Mahānidāna-sutta</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+clearly shows how the internal mental process of the individual </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">gives
+rise to destructive behaviour in society</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">.
+Thus, according to the Buddhist explanation of causes of conflict,
+all the conflicts </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">arise</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+in man himself. Therefore, the conflict resolution process should be
+started within man himself rather than finding outer solutions
+through the external world. Once </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">a</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+certain deity, asked the Buddha, “A tangle inside, a tangle
+outside, this generation is entangled in a tangle, I ask you this,
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Gotama</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+who can disentangle this tangle.” </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">The</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Buddha
+replied to him: “A man established on virtue, wise, developing the
+mind and wisdom, a </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Bhikkhu</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+ardent and discreet, he can disentangle this tangle.<a class="sdfootnoteanc" name="sdfootnote8anc" href="#sdfootnote8sym"><sup>8</sup></a>
+The deity asked the solution for the internal and external conflicts
+that entangled with each other. The Buddha presented a solution
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">addressing
+three levels</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i><b>
+</b></i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">that
+should be implemented by the </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">person</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+himself. They are, 1) Behavioural or moral transformation (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>sīla</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">),
+2) mental transformation (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>samādhi</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">)
+and 3) Cognitive transformation (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>pañña</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">).
+Morality means the protection of precepts preached by the Buddha.
+Mental transformation means the development of mental concentration
+and cognitive transformation is the understanding real nature of the
+world or the capacity to see things, as they are. The person who has
+developed and cultivated the above three levels is completely free
+from all types of internal and external conflicts. He is called
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Arahat</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">.
+He neither causes harm to himself nor causes to arising of external
+conflict. Even though it is difficult to reach such a </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">state</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">(</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>arahat</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">)
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">for</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">people
+in modern society, this theory </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">enables
+development</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+to an </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">extent</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">effective
+to reduce conflicts in day-to-day life.</font></font></p>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Buddhism
+does not recognize only psychological calamities as the only causes
+of arising conflicts but it distinguishes some social issues and
+interactions as root causes of arising conflicts. Poverty is one of
+such root causes cognized by the Buddha. In </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">the</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Cakkavattisīhanāda</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>sutta,</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">the</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+Buddha mentioned “not giving of property to the needy, poverty
+become rife, from the growth of poverty, taking of what was not
+giving is increased, from the increasing of theft, use of weapons
+increased, from the increasing use of weapons taking of life
+increased and from the increasing in taking of life, peoples life
+span decreased.”<a class="sdfootnoteanc" name="sdfootnote9anc" href="#sdfootnote9sym"><sup>9</sup></a>
+Modern sociologists also recognize poverty as a root cause of many
+social problems and conflicts. The poverty is caused by the
+unconstructive economic system of the county. The interpersonal
+conflict between the rich and the poor always arises due to the
+unfair distribution of the limited wealth among the people. The
+conflict between the rich and the poor can never be solved without
+reducing the gap between poor and rich. In </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">the</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Kuṭadanta
+</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>sutta</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">,
+it mentions that the king should distribute grain and fodder to those
+who engage in cultivation, should give capital to those who engage in
+trade and should give wages and food to those who engage in
+government service.<a class="sdfootnoteanc" name="sdfootnote10anc" href="#sdfootnote10sym"><sup>10</sup></a>
+Buddhism has recognized poverty as suffering and points out that it
+is impossible to implement a reconciliation process or peace-building
+programme without </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">eliminating
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">the
+poverty. The above discourses give ample account of how Buddha has
+explained the conflict resolutiontheories while understanding the
+root causes of social conflicts.</font></font></p>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Apart
+from the above factors, there are some other social impacts, which
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">cause</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+conflicts and problems </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">to
+arise</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+in society. In </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">the</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Aṅguttara-nikāya<a class="sdfootnoteanc" name="sdfootnote11anc" href="#sdfootnote11sym"><sup>11</sup></a></i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+it </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">is
+mentioned that various types of</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">mental
+suffering and conflict</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">arise
+due to social or environmental </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">causes</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">.
+Fire, flood, terrorism as well as fear and suffering arising due to
+ageing decay and death </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">cause</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+mental suffering and conflict </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">in</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+the individual. </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">The</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Kalahavivāda-sutta</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><a class="sdfootnoteanc" name="sdfootnote12anc" href="#sdfootnote12sym"><sup>12</sup></a></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>
+</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">reveals
+that conflicts arise due to debate and argument </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">between
+people.</font></font></p>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">According
+to the </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Aggañña-sutta</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><a class="sdfootnoteanc" name="sdfootnote13anc" href="#sdfootnote13sym"><sup>13</sup></a>
+conflicts arise in the world at the very first beginning of the
+universe due to the craving (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>tanhā</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">)
+of man. </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">It</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+is true that even today many conflicts and wars arise because of
+insatiability. Therefore, Buddhism emphasizes that man as is always
+lacking, unsatisfied and a slave to craving. The </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">dissatisfaction</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+of the individual </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">gives
+rise to all</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">conflicts
+from family level to global war. In </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">the</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i><u>Raṭṭapāla</u></i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i><b>-</b></i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>sutta</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><a class="sdfootnoteanc" name="sdfootnote14anc" href="#sdfootnote14sym"><sup>14</sup></a>
+it is mentioned that because of </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">his</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">insatiability,
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">a</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+king who conquered</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">all
+the land as far as the ocean was still not content</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">.
+Therefore, he </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">fought</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+to conquer the overseas</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">territories</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+too. Thus, Buddhism</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">recognizes</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+insatiability as the major cause </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">for
+the arising of conflicts</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">.
+</font></font>
+</p>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Regarding</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+conflict transformation, Buddhism reveals three stages in the
+unfolding of a conflict. They </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">are:</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+1) The stage of transgression (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>vītikkama</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">);
+in this </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">final</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">stage,
+physically or verbally the individual engages in the action or
+conflict, therefore, this is the stage of </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">engaging</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+in </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">violence;</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+2) the stage of manifestation (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>pariyuṭṭhāna</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">);
+this is the preceding stage of the emotional stimulus process in the
+mind. In this stage, the mental preparation for the violence is
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">started;</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+3) latent disposition (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>anusaya</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">);
+in this stage, mental cankers and defilements are submerged as latent
+dispositions.<a class="sdfootnoteanc" name="sdfootnote15anc" href="#sdfootnote15sym"><sup>15</sup></a>
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">At
+the same</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+time, Buddhism explains three </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">corresponding</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">stages
+of resolving </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">the</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">conflict:</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+1) temporary solution (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>tadaṅgapahāna</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">)</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">2)</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">short-</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">term</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+solution (v</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>ikkhambhanapahāna</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">)</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">3)</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+stable solution (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>samucchedapahāna</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">).<a class="sdfootnoteanc" name="sdfootnote16anc" href="#sdfootnote16sym"><sup>16</sup></a>These
+three stages can be understood through the following example. In </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">a</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+war, </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">a</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+cease-fire is the temporary solution, </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">the
+holding of peace talks</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+is the short-term solution and complete eradication of war is the
+stable solution. The stable solution mentioned here is not a solution
+achieved by only ending </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">hostilities</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">.
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">It
+is, however</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>,</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+the stable solution achieved after a successful reconciliation
+process and after healing all the wounds of </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">the</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">parties
+involved</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">.
+Therefore, the </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">immediate</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">post-</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">conflict</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+period belongs to the second of the above </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">stages</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">.</font></font></p>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>Peace
+building </b></font></font>
+</p>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Peace
+is the central theme discussed by many societies as it </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">is</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">essential
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">to</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">human
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">survival
+on the</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+planet. The peaceful atmosphere of society degenerates due to
+conflicts that originate </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">through
+differences in</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+religious, political, cultural, and ethnic </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">and
+other such</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+backgrounds. </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">As
+mentioned earlier,</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">conflict
+is an inevitable fact </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">of</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">human
+society. Therefore, establishing</font></font><strike><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font></strike><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">peace
+is also vital </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">to</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">society.
+In </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">relation
+to</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+the process of building peace, there are some important Buddhist
+discourses, which </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">provide</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">a
+considerable amount of theoretical and practical subject </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">matter</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">.
+The main admonishment given by the Buddha to his first sixty
+disciples was “Travel in the tour for the well-being and happiness
+of mankind as a whole.” Thus, the sole purpose of the Buddha and
+his disciples was to establish peace and happiness in society.
+Therefore, the Buddha is said to be born for the goodness and
+happiness of the human world, “</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>manussalōka
+hita sukhatāya jāto</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">”<a class="sdfootnoteanc" name="sdfootnote17anc" href="#sdfootnote17sym"><sup>17</sup></a>
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">He
+is attributed with</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">“Highest
+Compassion” (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>mahā
+kāruṇika</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">).
+At the same time, He was known as the “</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>santi-rājā</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">”
+or the “Prince of Peace.”<a class="sdfootnoteanc" name="sdfootnote18anc" href="#sdfootnote18sym"><sup>18</sup></a>
+He attained this stable peaceful position by himself after
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">understanding
+the</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+reality of the world. He said, “There arose in me vision,
+knowledge, wisdom, comprehension and light regarding things unheard
+of before.”<a class="sdfootnoteanc" name="sdfootnote19anc" href="#sdfootnote19sym"><sup>19</sup></a>
+He was such a great human being </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">that
+He</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+never mentally, verbally or physically caused the least harm to
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">H</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">imself
+or the outer world. Every word expressed by </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Him</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">was
+directed toward establishing</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">peace
+in society. </font></font>
+</p>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">People</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">in
+modern society seek peace in the outer world </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">through</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+organizing different types of programs and conferences to discuss the
+matter of peacebuilding and protecting human rights. </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">However,
+whatever</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">program
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">is</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+organized on the matter of peace-building</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">;</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+it is ineffective without highlighting the necessity of building
+inner peace. Before establishing peace in the outer world one should
+establish inner peace. Once Buddha said “It is not possible, Cunda
+for him who is stuck in the mud to pull out another who is stuck in
+the mud. But </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Cunda</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">,
+it is possible for one who is himself not stuck in the mud to pull
+out another who is stuck in the mud. In the same way, the person who
+did not establish discipline and peace himself cannot bring peace to
+others but the person who himself established inner peace and can
+lead others to peace.<a class="sdfootnoteanc" name="sdfootnote20anc" href="#sdfootnote20sym"><sup>20</sup></a>”
+The Buddha is the greatest example who first of all, developed and
+cultivated peace himself and leads others to peace. The person who
+has developed inner peace should practice effacement as, “Others
+will be cruel, we shall not be cruel here…, other will kill living
+beings, and we shall abstain from killing living beings”<a class="sdfootnoteanc" name="sdfootnote21anc" href="#sdfootnote21sym"><sup>21</sup></a>
+Moreover, His mind should be inclined (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>cittaṃ
+uppādetabbaṃ</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">)
+thus, “Other will be cruel, we shall not be cruel here, and others
+will kill living being we shall abstain from killing living beings.
+Thus, those who mentally practice peace and harmony must have the
+ability to tolerate any kind of violent situation. For example, the
+Buddha said to the venerable Phaggunna, &quot;If anyone should give
+you a blow with his hand, with a clod, with a stick, with a knife,
+you should abandon any desire and any thought based on the household
+life. And here in you should train thus, my mind will be unaffected
+and I shall utter no evil words. I shall abide compassionate for his
+welfare, with the mind of loving-kindness, (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>mettacitto</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">)</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i><b>
+</b></i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">without
+inner hate”<a class="sdfootnoteanc" name="sdfootnote22anc" href="#sdfootnote22sym"><sup>22</sup></a>
+This is the stable and unswerving inner compassion and loving
+kindness that should be developed by oneself to keep the peace in the
+outer world. As is mentioned above, peace-building in society can
+never be achieved without building peace in </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">the</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+mind. Therefore, Buddhism always emphasizes establishing inner peace
+rather than peace in society. It can very easily be understood that
+after establishing stable inner peace man himself, there is no need
+to try hard to establish peace in society.</font></font></p>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">The
+most important doctrine that Buddha has elaborated to create a
+peaceful atmosphere is the cultivation of </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Mettā</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">or
+loving-kindness. This single word has a very broad meaning in the
+context of bringing about peace and harmony, not only in the human
+world but also in the whole universe including even unseen </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">beings</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">,
+flora</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i><b>
+</b></i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">and
+fauna.</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">The
+word </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>mettā</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+is the abstract noun from the word </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>mitra</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">,
+which means “friend.”<a class="sdfootnoteanc" name="sdfootnote23anc" href="#sdfootnote23sym"><sup>23</sup></a>
+The friendliness or loving kindness that Buddhism emphasizes is not
+just friendliness but that is the friendliness should extend towards
+all living creatures in the human world. </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Metta-sutta</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+explains the way of cultivating loving kindness toward all creatures
+as “whatsoever the living creatures there are, moving or still
+without exception, whatever are long or large, or middle-sized or
+short, small or great. Whatever is seen or unseen, whoever lives far
+or near, whether they already exist or are going to be, let all
+creatures be happy-minded. One should not humiliate another, one
+should not despise anyone anywhere, and one should not wish anyone
+misery because of anger or the notion of repugnance. Just as a mother
+who protects with her life her son, her only son, so one should
+cultivate unbounded loving-kindness toward all beings, and loving
+kindness toward the entire world, one should cultivate unbounded love
+above and below and cross, without obstruction without enmity,
+without rivalry”<a class="sdfootnoteanc" name="sdfootnote24anc" href="#sdfootnote24sym"><sup>24</sup></a>
+If any party </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">involved</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">in
+a conflict can transform their mental attitudes up to the level of
+loving-kindness while forgetting all past bad experiences and
+agitations, </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">then</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">peace
+is not only a concept that cannot </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">ever</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+be practiced.</font></font></p>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">The
+loving-kindness or friendliness (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>mettā</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">)
+to be spread toward all creatures is also mentioned in the Four
+Sublime Abodes (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">brahmavihāra</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">)<a class="sdfootnoteanc" name="sdfootnote25anc" href="#sdfootnote25sym"><sup>25</sup></a>
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Mettā</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+here means friendly feelings towards others, </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Karuṇā</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">refers
+to</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+the compassionate attitudes that arise on the occasions of </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">others’</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">distress
+with </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">the</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">purpose
+of assisting or helping them. </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Muditā</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+is sympathetic joy, which means the ability to rejoice without any
+jealousy by seeing </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">others’</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+happiness and successes. </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Upekkhā</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+means the equanimity or the ability to</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i><b>
+</b></i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">experience
+any happy or distressful condition without mental agitation.</font></font></p>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">The
+opposite of the angry, enmity or ill will is loving-kindness (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>mettā</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">).
+Therefore, to overcome such bad attitudes the individual, must
+cultivate compassion or loving-kindness. Buddha said that
+friendliness should be cultivated to eradicate ill will “</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>mettā
+bhāvētabbā byapāda pahānāya.</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">”<a class="sdfootnoteanc" name="sdfootnote26anc" href="#sdfootnote26sym"><sup>26</sup></a>
+At the same time, in </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">the</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Sallekha-sutta</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+the Buddha said to Cunda, </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">“a
+person who practices cruelty must practice non-cruelty to abstain
+from it, the person who engages in killing must abstain from killing
+to avoid it”<a class="sdfootnoteanc" name="sdfootnote27anc" href="#sdfootnote27sym"><sup>27</sup></a></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+According to Buddhism, it is not enough to only refrain from killing
+living </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">beings,</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+but </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">it
+is also necessary to</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">cultivate
+the positive </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">quality</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">of
+loving-kindness. “One refrains from killing creatures, laying aside
+the stick and the sword and abides conscientious, full of kindness,
+love and compassion towards all creatures and beings.</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">”<a class="sdfootnoteanc" name="sdfootnote28anc" href="#sdfootnote28sym"><sup>28</sup></a>
+</font></font>
+</p>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">To
+support the building of peace and harmony in society, the</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+Buddha has recommended right livelihood (</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>sammā-ajīva</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">)
+for lay people, prohibiting all types of livelihoods which cause harm
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">and
+the</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">violation
+of peace in society. </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">The</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Buddha
+prohibited five trades which are harmful to </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">maintaining</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+peace in society. They </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">are:</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">1)
+the sale of arms, 2) the sale of human beings or animals, 3) the sale
+of flesh, 4) the sale of intoxicating drink, </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">and
+5)</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">the
+sale of dangerous and poisonous drugs. Today many human rights
+violations and crimes happen in the world owing to the dealing </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">in</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">the
+above trades. </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">There
+is no</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">single
+country or region in the world where </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">the</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">above
+trades</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">are
+not to be found; each</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+and every country engages in </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">these</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+trades directly or indirectly. </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">In
+particular,</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">powerful
+countries </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">in</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+the world</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">,
+whilst</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+engaging </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">in</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+and organizing peace </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">talks
+and</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">admonishing
+confronted parties</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">to
+build peace</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>,
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">strategically</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">sell
+their weapon and bullets to foolish combatants of </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">less
+powerful</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+countries. When the ruler of </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">a
+country</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">becomes
+unrighteous, the people of </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">that</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">county
+follow the same process. Therefore, the ruler must be </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">an</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+ideal to the society. The Buddhist concept of the ideal king depicted
+in </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">the</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Cakkavattisīhanāda-sutta</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+explains the role of the king in the matter of peacebuilding in a
+country. He is the Universal Monarch who rules his country </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">and</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">imposes</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">punishments</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+for offences, but without using a stick </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">or</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+sword. He is </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">thus</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+a good ruler who practices moral virtue and righteousness. This ideal
+king advises his fellow men not to kill, not to steal, not to engage
+in sexual misconduct, not to tell lies, not to use intoxicants.<a class="sdfootnoteanc" name="sdfootnote29anc" href="#sdfootnote29sym"><sup>29</sup></a>
+This concept of the ideal king in Buddhism was practically employed
+by some Buddhist rulers like King </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Dharmasōka
+</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">for
+the purpose of establishing peace in the society </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">following
+a war.</font></font></p>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">The
+Buddha was an ideal leader who practically engaged in the spreading
+of loving-kindness and compassion towards all living beings without
+any discrimination. In his daily routine, a few hours were spent
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">resting</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i><b>
+</b></i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">and
+during all </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">the</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">remaining</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+periods of the day he assisted people who wanted help. A few such
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">people
+he assisted were</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Aṅgulimāla,
+Paṭācārā, Kisāgōthami</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">,
+</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Sunīta
+Sōpāka, Rādha, Cullapanthaka</i></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+as well as animals like snakes and elephants. The Buddhist concept of
+peace has practical values as Buddhism has not fought with</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">people</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+to spread its doctrine and never </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">did
+the</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">
+Buddha </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">recommend</font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>
+</b></font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">any
+holy war against any religion or any race.</font></font></p>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>Conclusion</b></font></font></p>
+<p align="justify" style="line-height: 150%; margin-top: 0.19in; margin-bottom: 0.19in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Buddhism
+acknowledges that conflicts emerge from within humanity, arising from
+the interaction between internal faculties and external phenomena.
+The root causes of such conflicts lie in defilements such as craving,
+hatred, illusion, and ignorance. To foster a peaceful and
+conflict-free environment, these defilements must be overcome through
+the cultivation of virtuous thoughts, such as loving-kindness.</font></font></p>
+<p align="justify" style="line-height: 150%; margin-top: 0.19in; margin-bottom: 0.19in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">In
+conclusion, it must be noted that the Buddha not only taught the
+principles of conflict resolution but also actively mediated in
+numerous situations to resolve conflicts without discrimination. He
+intervened in the disputes of royalty and commoners, guiding kings
+like <i>Pasenadi Kosala</i> in the resolution of their daily
+challenges and assisting marginalized individuals, such as <i>Sunīta</i>
+and <i>Sopāka</i>, in rising above their oppressive social
+conditions. For example, when a conflict erupted between the <i>Sākya</i>
+and <i>Kōliya</i> tribes over the use of the Rohini River’s water,
+the Buddha made repeated efforts to mediate and avert violence. He
+also intervened in ideological disputes among monks in several times,
+seeking to guide them toward constructive dialogue. Even when his
+initial efforts proved unsuccessful, the Buddha’s silence and
+wisdom led the opposing parties to recognize the futility of their
+conflict.</font></font></p>
+<p align="justify" style="line-height: 150%; margin-top: 0.19in; margin-bottom: 0.19in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Thus,
+Buddhism presents numerous doctrinal teachings on conflict
+transformation, and peace-building. A central tenet of the Buddha’s
+approach to these issues is encapsulated in the phrase: “Hatred
+does not cease by hatred, hatred ceases by love; this is an eternal
+law.<a class="sdfootnoteanc" name="sdfootnote30anc" href="#sdfootnote30sym"><sup>30</sup></a>”
+In accordance with this, Buddhism teaches that, to bring about peace,
+individuals must first cultivate inner peace by letting go of past
+grievances and forgiving those who have wronged them. When one
+attains inner tranquility, peace naturally extends to the surrounding
+environment and society.</font></font></p>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>Bibliography</b></font></font></p>
+<ol>
+	<li><p align="justify" style="line-height: 150%; margin-top: 0.19in; margin-bottom: 0in">
+	<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">Andersen,
+	D., &amp; Smith, H.</span> (Eds.). (1990). <em>Suttanipāta</em>.
+	London: Pali Text Society.</font></font></p>
+	<li><p align="justify" style="line-height: 150%; margin-bottom: 0in">
+	<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">Carpenter,
+	J.E.</span> (Ed.). (1910). <em>Dīghanikāya</em> Vol. III. London:
+	Pali Text Society.</font></font></p>
+	<li><p align="justify" style="line-height: 150%; margin-bottom: 0in">
+	<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">Chaṭṭha
+	Saṅgāyana Tipiṭaka Version</span> (1995). Vipassana Research
+	Institute. </font></font>
+	</p>
+	<li><p align="justify" style="line-height: 150%; margin-bottom: 0in">
+	<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">Feer,
+	L.</span> (Ed.). (1884). <em>Saṁyuttanikāya</em> Vol. I. London:
+	Pali Text Society.</font></font></p>
+	<li><p align="justify" style="line-height: 150%; margin-bottom: 0in">
+	<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">Feer,
+	L.</span> (Ed.). (1976). <em>Saṁyuttanikāya</em> Vol. V. London:
+	Pali Text Society.</font></font></p>
+	<li><p align="justify" style="line-height: 150%; margin-bottom: 0in">
+	<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">Jayatilake,
+	K.N.</span> (2008). <em>Buddhism and Peace</em>. Kandy: Buddhist
+	Publication Society.</font></font></p>
+	<li><p align="justify" style="line-height: 150%; margin-bottom: 0in">
+	<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">Morris,
+	R.</span> (Ed.). (1888). <em>Aṅguttaranikāya</em> Vol. I &amp;
+	II. London: Pali Text Society.</font></font></p>
+	<li><p align="justify" style="line-height: 150%; margin-bottom: 0in">
+	<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">Rhys
+	Davids, T.W. &amp; Carpenter, J.E.</span> (Eds.). (1889).
+	<em>Dīghanikāya</em> Vol. I. London: Pali Text Society.</font></font></p>
+	<li><p align="justify" style="line-height: 150%; margin-bottom: 0in">
+	<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">Rhys
+	Davids, T.W. &amp; Carpenter, J.E.</span> (Eds.). (1903).
+	<em>Dīghanikāya</em> Vol. I &amp; II. London: Pali Text Society.</font></font></p>
+	<li><p align="justify" style="line-height: 150%; margin-bottom: 0in">
+	<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">Solis,
+	G.D.</span> (2010). <em>The Law of Armed Conflict: International
+	Humanitarian Law</em>. Cambridge University Press.</font></font></p>
+	<li><p align="justify" style="line-height: 150%; margin-bottom: 0in">
+	<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">Steinthal,
+	P.</span> (Ed.). (1982). <em>Udāna</em>. London: Pali Text Society.</font></font></p>
+	<li><p align="justify" style="line-height: 150%; margin-bottom: 0in">
+	<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">Sujato,
+	Bhikkhu.</span> (2028). <em>Numbered Discourses: A Sensible
+	Translation of the Aṅguttara Nikāya</em>. SuttaCentral. </font></font>
+	</p>
+	<li><p align="justify" style="line-height: 150%; margin-bottom: 0in">
+	<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">Trenckner,
+	V.</span> (Ed.). (1888). <em>Majjhimanikāya</em> Vol. I. London:
+	Pali Text Society.</font></font></p>
+	<li><p align="justify" style="line-height: 150%; margin-bottom: 0.19in">
+	<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">Von
+	Hinüber, O., &amp; Norman, K.R.</span> (Eds.). (1994, 1995).
+	<em>Dhammapada</em>. London: Pali Text Society.</font></font></p>
+</ol>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><b>Abbreviation
+</b></font></font>
+</p>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">A.
+      </font></font><em><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Aṅguttaranikāya</font></font></em></p>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">D.
+      </font></font><em><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Dīghanikāya</font></font></em></p>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Dhp.
+  </font></font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt"><i>Dhammapada</i></font></font></p>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">M.
+     </font></font><em><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Majjhimanikāya</font></font></em></p>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">S.
+     </font></font><em><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Saṁyuttanikāya</font></font></em></p>
+<p class="western" align="justify" style="line-height: 150%; margin-bottom: 0.14in">
+<font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Sn.
+   </font></font><em><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Suttanipāta</font></font></em></p>
+<div id="sdfootnote1"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote1sym" href="#sdfootnote1anc">1</a>
+	<font face="Times New Roman, serif">Gary and Solis (2010).</font></p>
+</div>
+<div id="sdfootnote2"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote2sym" href="#sdfootnote2anc">2</a><font face="Times New Roman, serif">
+	Sujato, Bhikkhu  (2028)  &amp; A.10.174.</font></p>
+</div>
+<div id="sdfootnote3"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote3sym" href="#sdfootnote3anc">3</a>
+	<font face="Times New Roman, serif">Mahāli Sutta, Aṅguttara-nikāya,
+	Dasaka-nipāta </font><font color="#000000"><font face="Times New Roman, serif">Chaṭṭha
+	Saṅgāyana,(</font></font><font color="#000000"><font face="Times New Roman, serif">1995).</font></font></p>
+</div>
+<div id="sdfootnote4"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote4sym" href="#sdfootnote4anc">4</a><font face="Times New Roman, serif">
+	Dhp.32.  </font>
+	</p>
+</div>
+<div id="sdfootnote5"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote5sym" href="#sdfootnote5anc">5</a><font face="Times New Roman, serif">
+	D.III.181.</font></p>
+</div>
+<div id="sdfootnote6"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote6sym" href="#sdfootnote6anc">6</a><font face="Times New Roman, serif">
+	D.II.58.</font></p>
+</div>
+<div id="sdfootnote7"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote7sym" href="#sdfootnote7anc">7</a><font face="Times New Roman, serif">
+	M.I.111.</font></p>
+</div>
+<div id="sdfootnote8"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote8sym" href="#sdfootnote8anc">8</a><font face="Times New Roman, serif">
+	S.I.13.</font></p>
+</div>
+<div id="sdfootnote9"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote9sym" href="#sdfootnote9anc">9</a>
+	<font face="Times New Roman, serif">D.III.67.</font></p>
+</div>
+<div id="sdfootnote10"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote10sym" href="#sdfootnote10anc">10</a><font face="Times New Roman, serif">D.I.134.</font></p>
+</div>
+<div id="sdfootnote11"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote11sym" href="#sdfootnote11anc">11</a><font face="Times New Roman, serif">A.I.110.</font></p>
+</div>
+<div id="sdfootnote12"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote12sym" href="#sdfootnote12anc">12</a><font color="#0000ff"><a href="/home/rw/git/ranwitter.github.io.git/downloads/source"><font color="#000000"><font face="Times New Roman, serif"><span style="text-decoration: none"><span style="background: #fffeff">Sn.
+	862-877</span></span></font></font></a></font><font color="#000000"><font face="Times New Roman, serif">.</font></font></p>
+</div>
+<div id="sdfootnote13"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote13sym" href="#sdfootnote13anc">13</a><font face="Times New Roman, serif">D.3.III.79.</font></p>
+</div>
+<div id="sdfootnote14"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote14sym" href="#sdfootnote14anc">14</a><font face="Times New Roman, serif">M.
+	II.54.</font></p>
+</div>
+<div id="sdfootnote15"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote15sym" href="#sdfootnote15anc">15</a><font face="Times New Roman, serif">D.III.254.</font></p>
+</div>
+<div id="sdfootnote16"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote16sym" href="#sdfootnote16anc">16</a><font face="Times New Roman, serif">
+	Khuddakanikāye  Paṭisambhidāmagga-aṭṭhakathā , </font><font color="#000000"><font face="Times New Roman, serif">Chaṭṭha
+	Saṅgāyana Tipiṭaka (1995).</font></font></p>
+</div>
+<div id="sdfootnote17"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote17sym" href="#sdfootnote17anc">17</a><font face="Times New Roman, serif">Sn.683.</font></p>
+</div>
+<div id="sdfootnote18"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote18sym" href="#sdfootnote18anc">18</a><font face="Times New Roman, serif">Jayatilake,
+	K.N (2008): 2.</font></p>
+</div>
+<div id="sdfootnote19"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote19sym" href="#sdfootnote19anc">19</a><font face="Times New Roman, serif">
+	S.V.422.</font></p>
+</div>
+<div id="sdfootnote20"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote20sym" href="#sdfootnote20anc">20</a><font face="Times New Roman, serif"><font size="2" style="font-size: 11pt">
+	M.I.45.</font></font></p>
+</div>
+<div id="sdfootnote21"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote21sym" href="#sdfootnote21anc">21</a><font face="Times New Roman, serif"><font size="2" style="font-size: 11pt">
+	M.I.41.</font></font></p>
+</div>
+<div id="sdfootnote22"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote22sym" href="#sdfootnote22anc">22</a><font face="Times New Roman, serif"><font size="2" style="font-size: 11pt">
+	M.I.123;</font></font></p>
+</div>
+<div id="sdfootnote23"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote23sym" href="#sdfootnote23anc">23</a><font face="Times New Roman, serif"><font size="2" style="font-size: 11pt">
+	Jayatilake, K.N. </font></font><font face="Times New Roman, serif"><font size="2" style="font-size: 11pt">(2008):
+	3.</font></font></p>
+</div>
+<div id="sdfootnote24"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote24sym" href="#sdfootnote24anc">24</a><font face="Times New Roman, serif">
+	</font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Sn.24.</font></font></p>
+</div>
+<div id="sdfootnote25"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote25sym" href="#sdfootnote25anc">25</a><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">D.III.196.</font></font></p>
+</div>
+<div id="sdfootnote26"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote26sym" href="#sdfootnote26anc">26</a><font face="Times New Roman, serif">
+	</font><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">Udānapali.37.</font></font></p>
+</div>
+<div id="sdfootnote27"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote27sym" href="#sdfootnote27anc">27</a><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">M.I.46.</font></font></p>
+</div>
+<div id="sdfootnote28"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote28sym" href="#sdfootnote28anc">28</a><font face="Times New Roman, serif"><font size="3" style="font-size: 12pt">D.I.4.</font></font></p>
+</div>
+<div id="sdfootnote29"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote29sym" href="#sdfootnote29anc">29</a><font face="Times New Roman, serif">D.III.62.</font></p>
+</div>
+<div id="sdfootnote30"><p class="sdfootnote-western"><a class="sdfootnotesym" name="sdfootnote30sym" href="#sdfootnote30anc">30</a><font face="Times New Roman, serif">
+	</font><font face="Times New Roman, serif">Dhp. chapter 1, verse 5.</font></p>
+</div>
+
+<!-- Ende body of docu--->
+
+<hr />
+
+<p><i>Siehe auch Downloads : <a href="downloads/An_Exploration_of_Buddhist_Principles_on_Conflict_Resolution_and_Peace-building_as_Presented_in_the_Pali_discourses.docx">Word Format (27.1 KB)</a></i></p>
+<p><i>Siehe auch Downloads : <a href="downloads/An_Exploration_of_Buddhist_Principles_on_Conflict_Resolution_and_Peace-building_as_Presented_in_the_Pali_discourses.pdf">PDF Format (103.6 KB)</a></i></p>
+
+
+
+</div>
+
+
+
+
+
+<div class="w3-half">
+
+
+
+  <div class="w3-card w3-margin">
+
+
+
+
+
+
+
+  </div>
+
+
+
+  
+
+
+
+    <div class="w3-card w3-margin">
+
+
+
+      <!--<img src="./bilder/Termine_2025.jpg" class="w3-white w3-padding" style="width:50%;padding: 1px 1px!important;" alt="Termine 2025"/>-->
+
+
+
+  </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<!-- Container -->
+
+<div class="w3-container" style="position:relative">
+
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-highway-blue"
+
+  style="position:absolute;top:-28px;right:24px">+</a>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Uns folgen</h4>
+  <a class="w3-button w3-large w3-highway-blue" href="https://www.facebook.com/buddhistischermahavihara" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-highway-blue" href="https://www.google.com/maps/place/Buddhistischer+Maha+Vihara+e.V./@53.1144087,9.7942972,14z/data=!4m15!1m9!4m8!1m0!1m6!1m2!1s0x47b1b1cd1fc24295:0xf5da7237e6e79d1f!2sBuddhistischer+Maha+Vihara+e.V.,+Bockheberer+Weg+1,+29640+Schneverdingen,+Germany!2m2!1d9.79999!2d53.11536!3m4!1s0x0:0xf5da7237e6e79d1f!8m2!3d53.11536!4d9.79999?hl=de-DE" title="Google"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-highway-blue" href="https://www.instagram.com/buddhistischervihara/" title="Instagram"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-highway-blue w3-hide-small" href="https://www.youtube.com/channel/UCScmRYHwItAiwy3ON16LvZg" target="_blank" title="YouTube"><i class="fa fa-youtube"></i></a>
+  <p> Letzte aktualisierung : 30.12.2023 12:31:58</p>
+  <div align="center">© 2014-2021 Alle Rechte vorbehalten – Buddhistischer Maha Vihara e.V. Schneverdingen</div>
+<div>
+<p>
+<a href="./datenschutz_impressum.html" target="_blank">Datenschutz und Impressum</a>
+</p>
+</div>
+  <!-- <p>Powered by Template::Toolkit and <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>-->
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-highway-blue w3-hide-small">nach oben</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
