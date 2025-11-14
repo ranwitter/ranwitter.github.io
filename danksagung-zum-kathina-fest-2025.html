@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<title>Buddhistischer Vihara - Schneverdingen</title>
+<meta charset="UTF-16">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-light-green.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-khaki.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+<link rel="stylesheet" href="./custom.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body id="myPage">
+
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity header">
+  <!--<img src="../img/header_bg_dbh2.png" alt="boat" style="width:100%;">-->
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-highway-blue  w3-hover-white" title="Motto">Mögen alle Wesen glücklich sein!</button>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-highway-blue w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-highway-blue w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Mögen alle Wesen glücklich sein!
+      </h4>
+      <h5><i class="fa fa-smile-o">Das ist unsere Motto</i></h5>
+    </header>
+    <div class="w3-container">
+    </div>
+    <footer class="w3-container w3-highway-blue">
+      <p></p>
+    </footer>
+  </div>
+</div>
+
+<!-- Sidebar on click -->
+
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+
+    <i class="fa fa-remove"></i>
+
+  </a>
+
+  <a href="./archiv.html" class="w3-bar-item w3-button">Archiv</a>
+
+  <a href="./video.html" class="w3-bar-item w3-button">Video</a>
+
+  <a href="./spenden.html" class="w3-bar-item w3-button">Spenden</a>
+
+  <a href="./mitgliedschaft.html" class="w3-bar-item w3-button">Mitgliedschaft</a>
+
+  <a href="./kontakt.html" class="w3-bar-item w3-button">Kontakt</a>
+
+</nav>
+
+
+
+<!-- Navbar -->
+
+
+
+ <div class="w3-bar w3-theme-d2 w3-left-align rwi-sticky">
+
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+
+  <a href="index.html#" class="w3-bar-item w3-button "><i class="fa fa-home w3-margin-right"></i>Home</a>
+
+  <a href="ankuendigungen.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Ankündigungen</a>
+
+  <a href="moenche.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Mönche</a>
+
+  <a href="angebote.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Angebote</a>
+
+  <a href="archiv.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white  w3-highway-blue "> Archiv</a>
+
+  <a href="audio.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Audio</a>
+
+  <a href="video.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Video</a>
+
+  <a href="geschichte.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Geschichte</a>
+
+  <a href="verein.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Verein</a>
+
+  <a href="spenden.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Spenden</a>
+
+  <a href="mitgliedschaft.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Mitgliedschaft</a>
+
+  <a href="kontakt.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white "> Kontakt</a>
+
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+
+ </div>
+
+
+
+  <!-- Navbar on small screens -->
+
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+
+    <a href="ankuendigungen.html" class="w3-bar-item w3-button">Ankündigungen</a>
+
+    <a href="moenche.html" class="w3-bar-item w3-button">Mönche</a>
+
+    <a href="angebote.html" class="w3-bar-item w3-button">Angebote</a>
+
+    <a href="archiv.html" class="w3-bar-item w3-button">Archiv</a>
+
+    <a href="audio.html" class="w3-bar-item w3-button">Audio</a>
+
+    <a href="video.html" class="w3-bar-item w3-button">Video</a>
+
+    <a href="geschichte.html" class="w3-bar-item w3-button">Geschichte</a>
+
+    <a href="verein.html" class="w3-bar-item w3-button">Verein</a>
+
+    <a href="spenden.html" class="w3-bar-item w3-button">Spenden</a>
+
+    <a href="mitgliedschaft.html" class="w3-bar-item w3-button">Mitgliedschaft</a>
+
+    <a href="kontakt.html" class="w3-bar-item w3-button">Kontakt</a>
+
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+
+  </div>
+
+<!-- header text starts -->
+
+<div class="w3-container w3-highway-blue">
+
+<h1>  Archiv </h1>
+
+</div>
+
+<!-- header text ends-->
+
+<!-- Work Row -->
+
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="danksagung-kathina-fest-2021">
+
+
+
+<div class="w3-container">
+
+<h2>Danksagung zum Kathina-Fest 2025</h2>
+
+
+
+<div class="w3-half">
+
+<p>Liebe Freunde und Besucher des buddhistischen Maha Vihara Klosters,</p>
+
+🪷
+
+<p>Mit vielen wertvollen Dhamma-Vorträgen und Meditationsanleitungen begann im Vorfeld der Kathina-Zeremonie das Seminar mit Bhante Seelawansa Maha Thero. Wir freuen uns über die positive Resonanz.
+Nach der Dana-Zeremonie am frühen Morgen begann am Sonntag die letzte Meditationssequenz zu der bereits Gäste des Festes mit anwesend waren.
+Anschließend gab es die zeremonielle Mittagsandacht, Puja, mit wundervollen Gaben aus der sri-lankanischen Küche.</p>
+<p>
+Dana für die insgesamt 12 voll-ordinierten Mönche, aus verschiedenen europäischen Ländern angereist, und ein reichhaltiges Buffett für alle Gäste.
+Nach einer kurzen Pause begann die Hauptfeierlichkeit mit Dhamma-Vorträgen und der feierliche Spende der neuen Roben an die Mönche.
+Eine Segnung schloss die Feierlichkeiten ab, mit Tee und Kaffee konnten alle Gäste gemütlich die gemeinsame Zeit ausklingen lassen.
+Wir freuen uns sehr über die Teilnahme aller Gäste.</p>
+
+<p>Die Maha Vihara Sangha und der Vorstand möchten sich bei allen Teilnehmern ganz herzlich bedanken, für Ihren Besuch und für jede Form der Spende, sei es die Mithilfe bei allen Festvorbereitungen, Haus- und Gartenpflege oder Geldspenden, die die zurückliegenden Tage in bester Erinnerung halten werden.</p>
+
+
+<p>Wir wünschen Euch Gesundheit.</p>
+<p>Mögen alle Wesen glücklich sein.</p>
+
+<p>තෙරුවන් සරණයි<br>
+Mit Metta,<br>
+Euer<br>
+🪷     Maha Vihara Team 🪷 
+</p>
+</div>
+
+
+
+<div class="w3-half">
+
+  <div class="w3-card w3-margin">
+
+
+      <img src="./bilder/danksagung-zum-kathina-fest-2025/dagoba-maha-vihara-2025.jpg" class="w3-white w3-padding" style="width:100%;padding: 8px 8px!important;" alt="">
+
+
+  </div>
+
+  <div class="w3-card w3-margin">
+
+
+      <img src="./bilder/danksagung-zum-kathina-fest-2025/dana-am-morgen-2025.jpg" class="w3-white w3-padding" style="width:100%;padding: 8px 8px!important;" alt="">
+
+🪷 Dana am Morgen
+  </div>
+      <div class="w3-card w3-margin">
+
+
+       <img src="./bilder/danksagung-zum-kathina-fest-2025/mittagspuja2-2025.jpg" class="w3-white w3-padding" style="width:100%;padding: 8px 8px!important;" alt="">
+
+🪷 Mittagspuja
+     </div>  
+    <div class="w3-card w3-margin">
+
+
+      <img src="./bilder/danksagung-zum-kathina-fest-2025/mittags-dana2-2025.jpg" class="w3-white w3-padding" style="width:100%;padding: 8px 8px!important;" alt="">
+
+🪷 Mittagsdana
+  </div>
+
+    <div class="w3-card w3-margin">
+
+
+        <img src="./bilder/danksagung-zum-kathina-fest-2025/mittags-dana-2025.jpg" class="w3-white w3-padding" style="width:100%;padding: 8px 8px!important;" alt="">
+
+
+  </div>  
+     
+                     <div class="w3-card w3-margin">
+
+
+     <img src="./bilder/danksagung-zum-kathina-fest-2025/robenzeremonie2-2025.jpg" class="w3-white w3-padding" style="width:100%;padding: 8px 8px!important;" alt="">
+
+🪷 Robenzeremonie
+     </div>
+     
+                     <div class="w3-card w3-margin">
+
+
+     <img src="./bilder/danksagung-zum-kathina-fest-2025/robenzeremonie-2025.jpg" class="w3-white w3-padding" style="width:100%;padding: 8px 8px!important;" alt="">
+
+🪷 Robenzeremonie
+     </div>
+     
+                     <div class="w3-card w3-margin">
+
+
+        <img src="./bilder/danksagung-zum-kathina-fest-2025/segnung-und-uebertragung-der-verdienste-2025.jpg" class="w3-white w3-padding" style="width:100%;padding: 8px 8px!important;" alt="">
+
+🪷 Segnung und Übertragung der Verdienste
+     </div>
+                   
+     
+</div>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+<!-- Container -->
+
+<div class="w3-container" style="position:relative">
+
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-highway-blue"
+
+  style="position:absolute;top:-28px;right:24px">+</a>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Uns folgen</h4>
+  <a class="w3-button w3-large w3-highway-blue" href="https://www.facebook.com/buddhistischermahavihara" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-highway-blue" href="https://www.google.com/maps/place/Buddhistischer+Maha+Vihara+e.V./@53.1144087,9.7942972,14z/data=!4m15!1m9!4m8!1m0!1m6!1m2!1s0x47b1b1cd1fc24295:0xf5da7237e6e79d1f!2sBuddhistischer+Maha+Vihara+e.V.,+Bockheberer+Weg+1,+29640+Schneverdingen,+Germany!2m2!1d9.79999!2d53.11536!3m4!1s0x0:0xf5da7237e6e79d1f!8m2!3d53.11536!4d9.79999?hl=de-DE" title="Google"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-highway-blue" href="https://www.instagram.com/buddhistischervihara/" title="Instagram"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-highway-blue w3-hide-small" href="https://www.youtube.com/channel/UCScmRYHwItAiwy3ON16LvZg" target="_blank" title="YouTube"><i class="fa fa-youtube"></i></a>
+  <p> Letzte aktualisierung : 30.12.2022 12:31:58</p>
+  <div align="center">© 2014-2021 Alle Rechte vorbehalten – Buddhistischer Maha Vihara e.V. Schneverdingen</div>
+<div>
+<p>
+<a href="./datenschutz_impressum.html" target="_blank">Datenschutz und Impressum</a>
+</p>
+</div>
+  <!-- <p>Powered by Template::Toolkit and <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>-->
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-highway-blue w3-hide-small">nach oben</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
